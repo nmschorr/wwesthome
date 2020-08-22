@@ -15,7 +15,8 @@
 
             <base-body space="0">
               <span class="white--text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor itaque modi ab accusantium architecto voluptates ipsa molestiae.
+                These Libraries are pieces of code that provide the intricate details on how to manage network
+                resources.
               </span>
             </base-body>
           </v-col>
@@ -27,7 +28,7 @@
             <base-btn
               :block="$vuetify.breakpoint.smAndDown"
               color="white"
-              href="mailto:shop@vuetifyjs.com?subject=Zero%20Theme%20Question"
+              href="mailto:berzeck@nulstar.com?subject=Nuls%20Blockchain%20Question"
               large
               outlined
               target="_blank"

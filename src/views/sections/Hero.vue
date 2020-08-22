@@ -13,14 +13,12 @@
           max-width="700"
           width="100%"
         >
-          <base-heading title=" Succeed with Nuls and Nerve" />
-
+          <base-heading title="Westteam Homepage" />
           <base-body>
-            Infographic hypotheses influencer user experience Long madel ture gen-z paradigm shift client partner network product seilans solve management influencer analytics leverage virality.
-            incubator seed round massmarket.
-            buyer agile development growth hacking business-to-consumer ecosystem
+            Broadly speaking, the consensus mechanism is the rule or algorithm that each node of the blockchain follows and is the basis for mutual trust.
+            In a narrow sense, the consensus module determines the mechanism by which each node verifies and validates transactions on the blockchain.
+            Consensus enables the blockchain to operate in a decentralized and unsupervised manner.
           </base-body>
-
           <div
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"

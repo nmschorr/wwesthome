@@ -16,7 +16,7 @@
         alt="Vuetify Logo"
         class="mr-2"
         contain
-        src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
+        :src="require(`@/assets/NULS_White.png`)"
         width="32"
       />
 
@@ -25,7 +25,7 @@
         class="hidden-xs-only"
         contain
         width="96"
-        src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
+        :src="require(`@/assets/NULS_White.png`)"
       />
     </a>
 
@@ -37,24 +37,28 @@
       href="https://store.vuetifyjs.com/product/zero-theme-free?ref=vtyd-system-bar"
       min-width="112"
     >
-      Free Download
+      Go Nuls
     </v-btn>
 
     <v-btn
       class="text-capitalize subtitle-2 font-weight-bold"
       color="white"
       light
-      href="https://store.vuetifyjs.com/product/zero-theme-pro/?ref=vtyd-system-bar"
       min-width="112"
     >
-      Go Pro
+      <v-img
+        alt="Vuetify Name"
+        class="hidden-xs-only"
+        contain
+        width="96"
+        :src="require(`@/assets/NULS_White.png`)"
+      />
+      Go Nuls
     </v-btn>
-
     <v-divider
       class="ml-6 mr-3"
       vertical
     />
-
     <v-btn
       class="text-capitalize grey--text mr-n2 mr-sm-n1"
       small

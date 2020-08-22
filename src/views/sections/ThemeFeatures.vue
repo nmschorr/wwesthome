@@ -1,9 +1,8 @@
 <template>
   <base-section id="theme-features">
     <base-section-heading title="Theme Features">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, in! Asperiores, impedit libero. Veniam rerum saepe unde nihil possimus quibusdam esse accusamus mollitia magni fuga.
+      The microservice-layer design of NULS makes it easy for developers to quickly create modules for anything.
     </base-section-heading>
-
     <v-container>
       <v-row>
         <v-col
@@ -17,7 +16,7 @@
             align="left"
             horizontal
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum veniam cum dolores ratione commodi beatae quas maxime, laboriosam excepturi solut!
+            NULS provides fluid, cost-effective, time-saving solutions for developers with minimum blockchain experience.
           </base-avatar-card>
         </v-col>
       </v-row>
@@ -32,29 +31,29 @@
     data: () => ({
       features: [
         {
-          title: 'Pixel Perfect Design',
+          title: 'More Blocks',
           icon: 'mdi-fountain-pen-tip',
         },
         {
-          title: 'Retina Ready',
+          title: 'Bigger Returns',
           icon: 'mdi-cellphone',
         },
         {
           color: 'primary',
           dark: true,
-          title: 'Easily Customizable',
+          title: 'Easy Staking',
           icon: 'mdi-pencil-box-outline',
         },
         {
-          title: 'Image Parallax',
+          title: 'Consensus Nodes',
           icon: 'mdi-image-size-select-actual',
         },
         {
-          title: 'Seo Optimized',
+          title: 'Globally Optimized',
           icon: 'mdi-ice-pop',
         },
         {
-          title: '24/7 Support',
+          title: 'Multiple Servers',
           icon: 'mdi-help-circle-outline',
         },
       ],

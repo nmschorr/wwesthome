@@ -3,7 +3,7 @@
     <base-section-heading
       color="grey lighten-2"
       icon="mdi-vuetify"
-      title="About our Product"
+      title="About Nuls"
     />
 
     <v-container>
@@ -30,19 +30,19 @@
         {
           title: 'Grow your Revenue',
           subtitle: 'Best Productivity',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          text: 'Developers will only need to focus on the problem that their application wants to solve, and NOT on how to integrate it into the platform.',
           callout: '01',
         },
         {
           title: 'Affordable Prices',
           subtitle: 'Special Offers',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          text: 'NULS will no longer be just blockchain node software but a complete platform to build all kind of systems around',
           callout: '02',
         },
         {
           title: 'Target Setting',
           subtitle: 'Income Flow',
-          text: 'Similique sunt in culpa qui officia deserunt mollitia animi, id est laborut dolorum fuga.harum quidem rerum facilis estexpedita distinctio.',
+          text: 'The sum of this optimization provides a very big competitive advantage among our peers',
           callout: '03',
         },
       ],

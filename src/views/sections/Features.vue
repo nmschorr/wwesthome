@@ -36,23 +36,23 @@
       cards: [
         {
           icon: 'mdi-keyboard-outline',
-          title: 'Trendy Design',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
+          title: 'Dex',
+          text: 'Consensus enables the blockchain to operate in a decentralized and unsupervised manner.',
         },
         {
           icon: 'mdi-camera-outline',
-          title: 'Photography',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
+          title: 'Chainbox',
+          text: 'Consensus enables the blockchain to operate in a decentralized and unsupervised manner.',
         },
         {
           icon: 'mdi-pencil-outline',
-          title: 'Brand Making',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
+          title: 'Chain Factory',
+          text: 'Consensus enables the blockchain to operate in a decentralized and unsupervised manner.',
         },
         {
           icon: 'mdi-puzzle-outline',
-          title: '24/7 Support',
-          text: 'Efficiently unleash media information without cross-media value. Quickly maximize value timely deliverables schemas.',
+          title: 'Support',
+          text: 'Consensus enables the blockchain to operate in a decentralized and unsupervised manner.',
         },
       ],
     }),

@@ -10,10 +10,9 @@
           md="5"
         >
           <base-business-info title="KEEP IN TOUCH WITH US">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo pariatur quidem, quis modi iure nihil commodi suscipit, corporis dicta adipisci, voluptatum quia cupiditate.
+            Consensus enables the blockchain to operate in a decentralized and unsupervised manner.
           </base-business-info>
         </v-col>
-
         <v-col
           cols="12"
           md="6"
