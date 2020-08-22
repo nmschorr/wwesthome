@@ -85,7 +85,7 @@
 
         <base-img
           class="mx-auto mb-6"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-light.png"
+          :src="`@/assets/nulsbox.JPG`"
           width="88"
         />
 

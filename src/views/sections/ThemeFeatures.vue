@@ -27,7 +27,6 @@
 <script>
   export default {
     name: 'SectionThemeFeatures',
-
     data: () => ({
       features: [
         {
