@@ -2,6 +2,7 @@
   <base-section
     id="features"
     class="secondary"
+    :background-image="require('@/assets/home-hero4.jpg')"
   >
     <v-responsive
       class="mx-auto"

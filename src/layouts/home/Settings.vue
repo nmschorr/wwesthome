@@ -63,7 +63,7 @@
 
         <base-btn
           block
-          href="https://store.vuetifyjs.com/product/zero-theme-free/?ref=vtyd-settings"
+          href="https://nuls.io"
           class="mb-6"
           color="accent"
           target="_blank"
@@ -96,7 +96,7 @@
             rounded
             @click="menu = false"
           >
-            Go Pro
+            Nuls
 
             <v-icon right>
               mdi-rocket

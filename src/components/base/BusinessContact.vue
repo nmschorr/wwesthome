@@ -47,17 +47,17 @@
       business: [
         {
           icon: 'mdi-map-marker-outline',
-          title: 'Address',
-          text: 'Bolivia<br>S.A.',
+          title: 'Main Telegram Channel',
+          text: 't.me@Nulsio',
         },
         {
           icon: 'mdi-cellphone',
-          title: 'Phone',
-          text: '01 (800) 555 555<br>01 (800) 555 555',
+          title: 'Tech Support',
+          text: 'kathy@nuls.io',
         },
         {
           icon: 'mdi-email',
-          title: 'Email',
+          title: 'Business Inquiries',
           text: 'berzeck@nulstar.com',
         },
       ],

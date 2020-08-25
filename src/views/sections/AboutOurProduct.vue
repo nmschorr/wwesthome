@@ -42,7 +42,7 @@
         {
           title: 'Target Setting',
           subtitle: 'Income Flow',
-          text: 'The sum of this optimization provides a very big competitive advantage among our peers',
+          text: 'A very big competitive advantage among our peers',
           callout: '03',
         },
       ],

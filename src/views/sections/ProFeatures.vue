@@ -9,7 +9,7 @@
     />
 
     <base-section-heading title="Feature Comparison">
-      Get the PRO version of <strong>Zero</strong> and level up your theme<br>with additional components, pages, and Free updates.
+      <strong>Nuls</strong> and Nerve <br>
     </base-section-heading>
 
     <v-container>
@@ -26,10 +26,10 @@
               <tr>
                 <th />
                 <th class="body-1 font-weight-bold text-center">
-                  What's in the Demo?
+                  What's in Nuls v2.0?
                 </th>
                 <th class="body-1 font-weight-bold text-center">
-                  What's in the PRO version?
+                  What's in the Nerve version?
                 </th>
               </tr>
             </thead>
@@ -79,7 +79,7 @@
           >
             <base-img
               max-width="100%"
-              src="https://cdn.vuetifyjs.com/store/themes/zero/pro.png"
+              src="@/assets/TribalBull.svg"
             />
           </v-card>
 
@@ -87,11 +87,9 @@
             <base-btn
               :tile="false"
               color="primary"
-              href="https://store.vuetifyjs.com/product/zero-theme-pro/?ref=vtyd-pro-page-features"
+              href=""
               rounded
             >
-              Buy Pro Now
-
               <v-icon right>
                 mdi-rocket
               </v-icon>
@@ -106,16 +104,15 @@
 <script>
   export default {
     name: 'SectionProChart',
-
     data: () => ({
       features: [
-        ['Components', 23, '40+'],
-        ['Example Pages', 3, 10],
-        ['Bugfixes and Issues', true, true],
-        ['Vue CLI Support', true, true],
-        ['News, Project, and Pricing Pages', false, true],
-        ['6 Months Free Updates', false, true],
-        ['Price', 'Free', '$60'],
+        ['Modules', true, true],
+        ['Exchanges', 10, 10],
+        ['POCM', true, true],
+        ['Staking', true, true],
+        ['Ndex', true, true],
+        ['Mobile', true, true],
+        ['More', true, true],
       ],
     }),
   }

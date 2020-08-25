@@ -2,7 +2,7 @@
   <v-theme-provider :dark="dark">
     <div>
       <base-img
-        :src="require('@/assets/zero-logo-dark.svg')"
+        :src="require('@/assets/TribalBull.svg')"
         contain
         max-width="128"
         min-height="78"
@@ -12,12 +12,12 @@
       <base-title
         size="body-1"
         space="4"
-        title="MULTI-PURPOSE THEME"
+        title="Nuls Blockchain"
         weight="regular"
       />
 
       <base-body>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo pariatur quidem, quis modi iure nihil commodi suscipit, corporis dicta adipisci, voluptatum quia cupiditate. Nulla minus voluptatum nostrum deleniti, asperiores facere.
+        Nuls Blockchain
       </base-body>
 
       <base-btn
@@ -45,12 +45,12 @@
         {
           icon: 'mdi-map-marker-outline',
           title: 'Address',
-          text: 'Singapore<br>Asia',
+          text: 'Singapore',
         },
         {
           icon: 'mdi-cellphone',
           title: 'Phone',
-          text: '01 (800) 555 744<br>01 (800) 555 633',
+          text: 'kathy@nuls.io',
         },
         {
           icon: 'mdi-email',

@@ -20,7 +20,7 @@
         'ChainBox',
         'Easy Customization',
         'User Friendly Design',
-        '24/7 Support Desk',
+        '24/7 Support',
         'Chain Factory',
       ],
     }),

@@ -20,7 +20,7 @@
 
     <base-btn
       :color="!theme.isDark ? 'accent' : 'white'"
-      href="mailto:shop@vuetifyjs.com?subject=Zero%20Theme%20Question"
+      href="mailto:berzeck@nulstar.com?subject=Nuls%20Nerve%20Question"
       outlined
       target="_blank"
     >

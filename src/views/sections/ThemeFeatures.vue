@@ -1,6 +1,6 @@
 <template>
   <base-section id="theme-features">
-    <base-section-heading title="Theme Features">
+    <base-section-heading title="Nuls / Nerve Blockchain Support">
       The microservice-layer design of NULS makes it easy for developers to quickly create modules for anything.
     </base-section-heading>
     <v-container>
@@ -13,6 +13,7 @@
         >
           <base-avatar-card
             v-bind="feature"
+            :href="feature.link"
             align="left"
             horizontal
           >
@@ -30,29 +31,31 @@
     data: () => ({
       features: [
         {
-          title: 'More Blocks',
+          title: 'Nuls Academy',
           icon: 'mdi-fountain-pen-tip',
+          link: 'http://westteam.nulstar.com/academy',
         },
         {
-          title: 'Bigger Returns',
+          title: 'Youtube Videos',
           icon: 'mdi-cellphone',
+          link: '',
         },
         {
           color: 'primary',
           dark: true,
-          title: 'Easy Staking',
+          title: 'Staking',
           icon: 'mdi-pencil-box-outline',
         },
         {
-          title: 'Consensus Nodes',
+          title: 'POCM',
           icon: 'mdi-image-size-select-actual',
         },
         {
-          title: 'Globally Optimized',
+          title: 'Ndex',
           icon: 'mdi-ice-pop',
         },
         {
-          title: 'Multiple Servers',
+          title: 'Smart Contracts',
           icon: 'mdi-help-circle-outline',
         },
       ],

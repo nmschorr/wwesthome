@@ -9,7 +9,7 @@
           cols="12"
           md="5"
         >
-          <base-business-info title="KEEP IN TOUCH WITH US">
+          <base-business-info title="Keep in Touch">
             Consensus enables the blockchain to operate in a decentralized and unsupervised manner.
           </base-business-info>
         </v-col>
@@ -17,7 +17,7 @@
           cols="12"
           md="6"
         >
-          <base-contact-form title="MAIL US YOUR MESSAGE" />
+          <base-contact-form title="Email Us" />
         </v-col>
       </v-row>
     </v-container>

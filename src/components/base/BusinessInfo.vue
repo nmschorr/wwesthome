@@ -23,17 +23,17 @@
       business: [
         {
           icon: 'mdi-map-marker-outline',
-          title: 'Address',
-          text: 'Singapore',
+          title: 'Main Telegram Channel',
+          text: 't.me@Nulsio',
         },
         {
           icon: 'mdi-cellphone',
-          title: 'Phone',
-          text: '01 (800) 555 744<br>01 (800) 555 633',
+          title: 'Tech Support',
+          text: 'kathy@nuls.io',
         },
         {
           icon: 'mdi-email',
-          title: 'Email',
+          title: 'Business Inquiries',
           text: 'berzeck@nulstar.com',
         },
       ],

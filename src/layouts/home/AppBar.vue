@@ -7,13 +7,13 @@
       elevation="1"
       height="80"
     >
-      <base-img
+      <!-- <base-img
         :src="require('@/assets/NULS_White.png')"
         class="mr-3 hidden-xs-only"
         contain
         max-width="52"
         width="100%"
-      />
+      /> -->
 
       <base-img
         :src="require('@/assets/NULS_White.png')"
@@ -72,7 +72,7 @@
         'Home',
         'About',
         'Contact',
-        'Pro',
+        'Wallet',
       ],
     }),
   }
