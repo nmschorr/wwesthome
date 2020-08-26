@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#script for spaceexploration westteam:
+
+cd /usr/share/nginx/html/spc
+
+rm -rf /usr/share/nginx/html/spc/node_modules/.cache
+git fetch
+git pull origin dev2
+npm run build
+sudo systemctl restart spaceexploreapp
+
+nohup /usr/node-v12.17.0-linux-x64/lib/node_modules/serve/bin/serve.js -l 5004 -C -s /usr/share/nginx/html/spc/dist 2>1 &
+nohup /usr/node-v12.17.0-linux-x64/lib/node_modules/serve/bin/serve.js -s /usr/share/nginx/html/spc/dist 2>1 &
+
+
+
+sudo systemctl restart spaceexploreapp
+
