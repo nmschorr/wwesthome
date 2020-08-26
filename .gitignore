@@ -28,3 +28,17 @@ yarn-error.log*
 
 .release-it.json
 now.json
+./fav*
+/js
+/img
+/css 
+old.zip 
+site.webmanifest
+./android*
+./appl*
+android*
+apple*
+fav*
+index*
+robots.txt
+
