@@ -38,22 +38,22 @@
         {
           icon: 'mdi-keyboard-outline',
           title: 'Dex',
-          text: 'Consensus enables the blockchain to operate in a decentralized and unsupervised manner.',
+          text: 'Consensus enables the blockchain..',
         },
         {
           icon: 'mdi-camera-outline',
           title: 'Chainbox',
-          text: 'Consensus enables the blockchain to operate in a decentralized and unsupervised manner.',
+          text: 'The blockchain to operates in a decentralized manner.',
         },
         {
           icon: 'mdi-pencil-outline',
           title: 'Chain Factory',
-          text: 'Consensus enables the blockchain to operate in a decentralized and unsupervised manner.',
+          text: 'Consensus enables the blockchain to run in an unsupervised manner.',
         },
         {
           icon: 'mdi-puzzle-outline',
           title: 'Support',
-          text: 'Consensus enables the blockchain to operate in a decentralized and unsupervised manner.',
+          text: 'Consensus enables decentralized and unsupervised running.',
         },
       ],
     }),

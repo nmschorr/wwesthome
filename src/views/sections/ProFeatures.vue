@@ -3,9 +3,11 @@
     id="pro-features"
   >
     <v-img
-      :src="require('@/assets/logo.svg')"
+      :src="require('@/assets/nuls-nerve.jpg')"
       class="mx-auto mb-8"
-      max-width="128"
+      width="600px"
+      max-width="1200px"
+      height="337px"
     />
 
     <base-section-heading title="Feature Comparison">

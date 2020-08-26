@@ -52,8 +52,8 @@
       social: [
         'Facebook',
         'Twitter',
-        'Instagram',
-        'Linkedin',
+        'Telegram',
+        'Discord',
       ],
     }),
   }

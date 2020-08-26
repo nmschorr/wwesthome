@@ -28,7 +28,6 @@
 
           <base-title
             :title="title"
-            class="text-uppercase"
             space="1"
           />
 

@@ -21,38 +21,25 @@
         >
           <base-heading title="Nulstar West" />
           <base-body
-            :style="`font-size:24px;`"
+            :style="`font-size:20px;`"
           >
             <span
-              style="font-size:24px!important;"
+              style="font-size:20px!important;"
             >
-              Welcome to Westteam. We support both the Nuls and Nerve ecosystems in the Westterm hemisphere.
-              We provide tech support, training, documentation, graphics and videos in English, Portuguese and Spanish.
-
-              <br><br>
-              Our team reaches from La Paz, Bolivia, through California to Portugal, Germany and Australia.
-              Separated by borders, cultures, laws and distance - we have come together in harmony to
-              provide the best community-based blockchain experience we know of.
+              <br>
+              From Bolivia and California to Portugal, Germany and Australia.
+              Separated by borders, cultures, and distance - we work to
+              provide Nuls and Nerve ecosystem support.
+              <br><br><br>
+              Here you will find:<br><br>
+              - Support for both the Nuls and Nerve.<br><br>
+              - Tech support, training, documentation, graphics and videos in English, Portuguese and Spanish.
             </span>
           </base-body>
           <div
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"
           >
-            <base-btn>
-              Discover More
-            </base-btn>
-
-            <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
-
-            <base-btn
-              :ripple="false"
-              class="pa-1"
-              height="auto"
-              text
-            >
-              Get Started Now
-            </base-btn>
           </div>
         </v-responsive>
       </v-container>

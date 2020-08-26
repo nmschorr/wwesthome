@@ -23,7 +23,6 @@
       v-if="title"
       :align="align"
       :title="title"
-      class="text-uppercase"
       space="2"
     />
 

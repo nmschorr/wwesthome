@@ -13,7 +13,6 @@
         >
           <base-avatar-card
             v-bind="feature"
-            :href="feature.link"
             align="left"
             horizontal
           >
@@ -31,20 +30,22 @@
     data: () => ({
       features: [
         {
-          title: 'Nuls Academy',
+          title: 'NULS Academy',
           icon: 'mdi-fountain-pen-tip',
-          link: 'http://westteam.nulstar.com/academy',
+          hreff: 'http://westteam.nulstar.com/academy/index.html',
         },
         {
           title: 'Youtube Videos',
           icon: 'mdi-cellphone',
-          link: '',
+          hreff: 'https://www.youtube.com/channel/UCVIyQ6rE49XBm1sTvNZxQVQ',
         },
         {
           color: 'primary',
           dark: true,
           title: 'Staking',
           icon: 'mdi-pencil-box-outline',
+          hreff: 'http://westteam.nulstar.com/spc',
+
         },
         {
           title: 'POCM',

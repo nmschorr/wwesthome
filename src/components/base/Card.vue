@@ -16,7 +16,6 @@
     <base-title
       v-if="title"
       :title="title"
-      class="text-uppercase"
       size="subtitle-1"
       space="0"
     />

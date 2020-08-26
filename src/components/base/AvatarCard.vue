@@ -10,16 +10,16 @@
       :icon="icon"
       :outlined="outlined"
       :size="size"
+      :href="hreff"
       class="mb-3"
     />
 
     <div :class="horizontal && title && 'ml-6'">
-      <base-title
-        :title="title"
-        class="text-uppercase"
-        space="3"
-      />
-
+      <a
+        :href="hreff"
+      >
+        {{ title }}
+      </a>
       <base-body
         v-if="text || $slots.default"
         :space="horizontal ? 0 : undefined"
@@ -65,6 +65,7 @@
       },
       text: String,
       title: String,
+      hreff: String,
     },
 
     computed: {

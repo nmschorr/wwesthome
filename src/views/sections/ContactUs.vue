@@ -10,7 +10,7 @@
           <v-col cols="10">
             <base-title
               :space="$vuetify.breakpoint.mdAndUp ? 0 : 4"
-              title="HAVE QUESTIONS? LET US KNOW!"
+              title="Have Questions?"
             />
 
             <base-body space="0">

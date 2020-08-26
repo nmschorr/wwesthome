@@ -10,7 +10,7 @@
           md="5"
         >
           <base-business-info title="Keep in Touch">
-            Consensus enables the blockchain to operate in a decentralized and unsupervised manner.
+            Blockchains operate in a decentralized and unsupervised manner.
           </base-business-info>
         </v-col>
         <v-col

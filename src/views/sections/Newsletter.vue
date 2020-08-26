@@ -12,7 +12,7 @@
       >
         <base-title
           space="0"
-          title="GET OUR NEWSLETTER"
+          title="get the newletter"
         />
 
         <v-responsive
