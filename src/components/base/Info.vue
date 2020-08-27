@@ -21,7 +21,7 @@
       business: [
         {
           icon: 'mdi-map-marker-outline',
-          title: 'Address',
+          title: 'World Headquarters',
           text: 'Singapore',
         },
         {

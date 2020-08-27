@@ -12,12 +12,12 @@
           md="6"
         >
           <div class="d-flex flex-wrap justify-md-start justify-center justify-md-none">
-            <template v-for="(s, i) in social">
+            <template v-for="(s) in social">
               <a
-                :key="s"
+                :key="s.title"
                 class="white--text pa-1 pa-md-0"
-                href="#"
-                v-text="s"
+                :href="s.hreff"
+                v-text="s.title"
               />
 
               <v-responsive
@@ -49,12 +49,32 @@
     name: 'HomeFooter',
 
     data: () => ({
-      social: [
-        'Facebook',
-        'Twitter',
-        'Telegram',
-        'Discord',
-      ],
+      social: [{
+        Facebook: {
+          title: 'Facebook',
+          hreff: {
+            type: URL,
+            default: 'facebook.com/Nuls',
+            required: false,
+          },
+        },
+        Twitter: {
+          title: 'Twitter',
+          hreff: {
+            type: String,
+            default: 'twitter.com/Nuls',
+            required: false,
+          },
+        },
+        Telegram: {
+          title: 'Telegram',
+          hreff: {
+            type: String,
+            default: 't.me/nuls_network',
+            required: false,
+          },
+        },
+      }],
     }),
   }
 </script>

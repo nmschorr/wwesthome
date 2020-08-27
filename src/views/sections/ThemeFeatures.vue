@@ -30,9 +30,9 @@
     data: () => ({
       features: [
         {
-          title: 'NULS Academy',
+          title: 'NULS Academy Blockchain Course',
           icon: 'mdi-fountain-pen-tip',
-          hreff: 'http://westteam.nulstar.com/academy/index.html',
+          hreff: 'http://westteam.nulstar.com/academy/BlockchainCourse/index.html',
         },
         {
           title: 'Youtube Videos',
@@ -42,14 +42,15 @@
         {
           color: 'primary',
           dark: true,
-          title: 'Staking',
+          title: 'Staking QuickStart',
           icon: 'mdi-pencil-box-outline',
-          hreff: 'http://westteam.nulstar.com/spc',
+          hreff: 'https://www.youtube.com/watch?v=NaI5mZCwQlo',
 
         },
         {
-          title: 'POCM',
+          title: 'POCM Staking',
           icon: 'mdi-image-size-select-actual',
+          hreff: 'https://pocm.nuls.io/Projects/ProjectsList',
         },
         {
           title: 'Ndex',

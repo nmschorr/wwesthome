@@ -27,7 +27,7 @@
       <div class="py-4" />
 
       <v-btn
-        class="font-weight-bold"
+        class="font-weight-bold mx-4"
         color="white"
         href="https://twitter.com/Nuls"
         light
@@ -35,8 +35,21 @@
         target="_blank"
         x-large
       >
-        Follow Us
-
+        Follow Nuls
+        <v-icon right>
+          mdi-open-in-new
+        </v-icon>
+      </v-btn>
+      <v-btn
+        class="font-weight-bold"
+        color="white"
+        href="https://twitter.com/nerve_network"
+        light
+        min-width="168"
+        target="_blank"
+        x-large
+      >
+        Follow Nerve
         <v-icon right>
           mdi-open-in-new
         </v-icon>

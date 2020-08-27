@@ -8,7 +8,7 @@
   export default {
     name: 'About',
 
-    metaInfo: { title: 'About Us' },
+    metaInfo: { title: 'NULS Academy' },
 
     extends: View,
 

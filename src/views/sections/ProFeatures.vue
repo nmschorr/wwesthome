@@ -109,9 +109,9 @@
     data: () => ({
       features: [
         ['Modules', true, true],
-        ['Exchanges', 10, 10],
-        ['POCM', true, true],
+        ['Exchanges', true, true],
         ['Staking', true, true],
+        ['POCM', true, true],
         ['Ndex', true, true],
         ['Mobile', true, true],
         ['More', true, true],

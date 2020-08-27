@@ -2,13 +2,13 @@
   <section id="hero">
     <!-- :min-height="minHeight" -->
     <v-img
-      :src="require('@/assets/home-hero3.jpg')"
+      :src="require('@/assets/NULS_BANNER.svg')"
       class="white--text"
       width="100%"
-      height="600px"
-      max-height="600px"
-      min-height="600px"
-      gradient="to right, rgba(5, 11, 31, .8), rgba(5, 11, 31, .8)"
+      height="787px"
+      max-height="787px"
+      min-height="200px"
+      gradient="to right, rgba(5, 11, 31, 0), rgba(5, 11, 31, 0)"
     >
       <!-- gradient="to right, rgba(5, 11, 31, .8), rgba(5, 11, 31, .8)" -->
 
@@ -19,28 +19,23 @@
           max-width="1200"
           width="100%"
         >
-          <base-heading title="Nulstar West" />
+          <base-heading
+            title="Nulstar West"
+            :style="`font-family: 'Montserrat',sans-serif;font-size:70px!important; font-weight:900;`"
+          />
           <base-body
             :style="`font-size:20px;`"
           >
             <span
-              style="font-size:20px!important;"
+              :style="`font-size:30px!important;color:white;font-weight:700;`"
             >
-              <br>
-              From Bolivia and California to Portugal, Germany and Australia.
-              Separated by borders, cultures, and distance - we work to
-              provide Nuls and Nerve ecosystem support.
               <br><br><br>
               Here you will find:<br><br>
-              - Support for both the Nuls and Nerve.<br><br>
-              - Tech support, training, documentation, graphics and videos in English, Portuguese and Spanish.
+              - Support for both the Nuls and Nerve<br><br>
+              - Tech support, training, documentation,  <br>
+              graphics and videos
             </span>
           </base-body>
-          <div
-            :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
-            class="d-flex flex-wrap"
-          >
-          </div>
         </v-responsive>
       </v-container>
     </v-img>
@@ -64,3 +59,31 @@
     },
   }
 </script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+  .xv-data-table__wrapper {
+    font-size: small;
+  }
+  .xptsans {
+    font-family:'PT Sans Narrow, sans-serif';
+    font-weight: 400;
+  }
+  .xv-label  {
+    font-size: 12px!important;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+  }
+  .xtealback {
+    background-image: linear-gradient(306deg, teal 70%, cyan 30% );
+  }
+  .montfont {
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 1.25px;
+  }
+</style>

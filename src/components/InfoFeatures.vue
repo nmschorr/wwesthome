@@ -20,8 +20,8 @@
         'ChainBox',
         'Easy Customization',
         'User Friendly Design',
-        '24/7 Support',
-        'Chain Factory',
+        'Support',
+        'Tutorials',
       ],
     }),
   }
