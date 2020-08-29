@@ -25,12 +25,15 @@
             :title="subtitle"
             space="1"
           />
-
-          <base-title
-            :title="title"
-            space="1"
-          />
-
+          <a
+            :href="href"
+            :style="`text-decoration-line:none`"
+          >
+            <base-title
+              :title="title"
+              space="1"
+            />
+          </a>
           <base-divider :color="color" />
 
           <base-body
@@ -76,6 +79,10 @@
       subtitle: String,
       text: String,
       title: String,
+      href: {
+        type: String,
+        default: 'http://nuls.io',
+      },
     },
   }
 </script>

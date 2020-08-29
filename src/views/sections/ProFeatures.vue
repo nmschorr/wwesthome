@@ -81,7 +81,7 @@
           >
             <base-img
               max-width="100%"
-              src="@/assets/TribalBull.svg"
+              src="@/assets/nulsDeveloper.svg"
             />
           </v-card>
 

@@ -23,6 +23,7 @@
         v-if="icon"
         :dark="dark"
         :size="size / 2"
+        :class="`${tcolor}`"
       >
         {{ icon }}
       </base-icon>
@@ -36,6 +37,10 @@
 
     props: {
       color: String,
+      tcolor: {
+        type: String,
+        default: 'white--text',
+      },
       dark: Boolean,
       icon: String,
       outlined: Boolean,

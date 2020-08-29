@@ -26,6 +26,10 @@
         type: String,
         default: 'bold',
       },
+      href: {
+        type: String,
+        default: 'http://nuls.io',
+      },
     },
   }
 </script>

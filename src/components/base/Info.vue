@@ -2,7 +2,7 @@
   <v-theme-provider :dark="dark">
     <div>
       <base-img
-        :src="require('@/assets/TribalBull.svg')"
+        :src="require('@/assets/nulsDeveloper.svg')"
         contain
         max-width="500"
         min-height="308"
@@ -20,18 +20,18 @@
     data: () => ({
       business: [
         {
-          icon: 'mdi-map-marker-outline',
-          title: 'World Headquarters',
-          text: 'Singapore',
+          icon: 'mdi-email',
+          title: 'Training Liason',
+          text: 'Gabriele',
         },
         {
-          icon: 'mdi-cellphone',
-          title: 'Phone',
+          icon: 'mdi-email',
+          title: 'Software Support',
           text: 'kathy@nuls.io',
         },
         {
           icon: 'mdi-email',
-          title: 'Email',
+          title: 'Westtern Regional Director',
           text: 'berzeck@nulstar.com',
         },
       ],

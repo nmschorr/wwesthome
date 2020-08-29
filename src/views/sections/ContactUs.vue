@@ -21,7 +21,7 @@
             </base-body>
           </v-col>
 
-          <v-col
+          <!-- <v-col
             cols="12"
             md="2"
           >
@@ -35,7 +35,7 @@
             >
               Contact Us
             </base-btn>
-          </v-col>
+          </v-col> -->
         </v-row>
       </v-container>
     </base-section>

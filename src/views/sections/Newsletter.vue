@@ -12,10 +12,12 @@
       >
         <base-title
           space="0"
-          title="get the newletter"
+          title="Invest in your future"
         />
-
-        <v-responsive
+        <v-img
+          src="@/assets/NULS_BANNER.svg"
+        />
+        <!-- <v-responsive
           class="px-4 mx-6"
           max-width="600"
           width="100%"
@@ -35,7 +37,7 @@
               </v-btn>
             </template>
           </base-text-field>
-        </v-responsive>
+        </v-responsive> -->
       </v-row>
     </base-section>
   </v-theme-provider>

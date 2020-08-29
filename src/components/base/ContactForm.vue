@@ -1,6 +1,6 @@
 <template>
   <div>
-    <base-info-card
+    <!-- <base-info-card
       :title="title"
       :subtitle="subtitle"
       space="4"
@@ -25,7 +25,7 @@
       target="_blank"
     >
       Send message
-    </base-btn>
+    </base-btn> -->
   </div>
 </template>
 

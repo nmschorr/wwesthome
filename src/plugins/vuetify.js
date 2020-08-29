@@ -2,12 +2,15 @@
 
 import Vue from 'vue'
 import Vuetify from 'vuetify/lib/framework'
+import colors from 'vuetify/es5/util/colors'
+
 import {
   VCol,
   VRow,
 } from 'vuetify/lib'
 
 Vue.use(Vuetify, {
+  colors,
   components: {
     VCol,
     VRow,
@@ -23,9 +26,17 @@ export default new Vuetify({
         secondary: '#050b1f',
         accent: '#204165',
         myteal2: '#00BFA5',
-        myteal: '#009688',
+        myteal: 'colors.teal.base',
+        mytext: 'black',
       },
-      dark: {},
+      dark: {
+        primary: '#42a5f6',
+        secondary: '#050b1f',
+        accent: '#204165',
+        myteal2: '#00BFA5',
+        myteal: 'colors.teal.base',
+        mytext: 'white',
+      },
     },
   },
 })

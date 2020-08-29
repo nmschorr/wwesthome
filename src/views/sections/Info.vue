@@ -12,7 +12,7 @@
           <v-row>
             <v-col
               cols="12"
-              md="3"
+              md="6"
             >
               <base-info />
             </v-col>

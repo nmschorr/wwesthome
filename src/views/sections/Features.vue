@@ -36,24 +36,28 @@
     data: () => ({
       cards: [
         {
-          icon: 'mdi-keyboard-outline',
-          title: 'Dex',
-          text: 'Consensus enables the blockchain..',
+          icon: 'mdi-frequently-asked-questions',
+          title: 'FAQs',
+          text: 'Frequently Asked Questions',
+          href: 'http://westteam.nulstar.com/academy/academy/faqs.html',
         },
         {
           icon: 'mdi-camera-outline',
           title: 'Chainbox',
           text: 'The blockchain to operates in a decentralized manner.',
+          href: 'http://westteam.nulstar.com/academy/academy/faqs.html',
         },
         {
           icon: 'mdi-pencil-outline',
           title: 'Chain Factory',
           text: 'Consensus enables the blockchain to run in an unsupervised manner.',
+          href: 'http://westteam.nulstar.com/academy/academy/faqs.html',
         },
         {
           icon: 'mdi-puzzle-outline',
           title: 'Support',
           text: 'Consensus enables decentralized and unsupervised running.',
+          href: 'http://westteam.nulstar.com/academy/academy/faqs.html',
         },
       ],
     }),

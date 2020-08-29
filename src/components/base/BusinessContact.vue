@@ -47,17 +47,17 @@
       business: [
         {
           icon: 'mdi-map-marker-outline',
-          title: 'Main Telegram Channel',
-          text: 't.me@Nulsio',
+          title: 'Training Liason',
+          text: 'Gabriele',
         },
         {
-          icon: 'mdi-cellphone',
-          title: 'Tech Support',
+          icon: 'mdi-email',
+          title: 'Software Support',
           text: 'kathy@nuls.io',
         },
         {
           icon: 'mdi-email',
-          title: 'Business Inquiries',
+          title: 'Westtern Regional Director',
           text: 'berzeck@nulstar.com',
         },
       ],

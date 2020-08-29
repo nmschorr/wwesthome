@@ -32,14 +32,14 @@
         {
           title: 'NULS Academy Blockchain Course',
           color: 'purple',
-          dark: true,
           icon: 'mdi-school',
           byline: 'Training.',
           hreff: 'http://westteam.nulstar.com/academy/BlockchainCourse/index.html',
+          tcolor: 'white--text',
         },
         {
           color: 'red',
-          dark: true,
+          dark: false,
           title: 'Youtube Videos',
           byline: 'Training for NULS and Nerve',
           icon: 'mdi-youtube',
@@ -47,7 +47,7 @@
         },
         {
           color: 'myteal',
-          dark: true,
+          dark: false,
           byline: 'Get started with staking and earn rewards',
           title: 'Staking QuickStart',
           icon: 'mdi-hammer',
@@ -56,7 +56,7 @@
         },
         {
           color: 'myteal2',
-          dark: true,
+          dark: false,
           title: 'POCM Staking',
           icon: 'mdi-image-size-select-actual',
           byline: 'Earn higher rewards staking with POCM',
@@ -65,7 +65,7 @@
         {
           color: 'indigo',
           title: 'Ndex',
-          dark: true,
+          dark: false,
           icon: 'mdi-ice-pop',
           byline: 'Trade between tokens.',
           hreff: 'https://pocm.nuls.io/Projects/ProjectsList',
@@ -73,7 +73,7 @@
         {
           color: 'light-blue',
           title: 'Smart Contracts',
-          dark: true,
+          dark: false,
           byline: 'Create your own smart contract.',
           icon: 'mdi-book-open-variant',
           hreff: 'https://pocm.nuls.io/Projects/ProjectsList',

@@ -6,11 +6,11 @@
     <base-avatar
       v-if="icon"
       :color="color"
-      :dark="dark"
       :icon="icon"
       :outlined="outlined"
       :size="size"
       :href="hreff"
+      :tcolor="tcolor"
       class="mb-3"
     />
 
@@ -66,6 +66,10 @@
       text: String,
       title: String,
       hreff: String,
+      tcolor: {
+        type: String,
+        default: 'white--text',
+      },
     },
 
     computed: {
