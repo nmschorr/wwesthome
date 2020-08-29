@@ -71,8 +71,8 @@
       items: [
         'Home',
         'About',
-        'Contact',
-        'Wallet',
+        // 'Contact',
+        // 'Wallet',
       ],
     }),
   }

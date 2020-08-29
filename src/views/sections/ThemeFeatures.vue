@@ -16,7 +16,7 @@
             align="left"
             horizontal
           >
-            NULS provides fluid, cost-effective, time-saving solutions for developers with minimum blockchain experience.
+            {{ feature.byline }}
           </base-avatar-card>
         </v-col>
       </v-row>
@@ -31,34 +31,52 @@
       features: [
         {
           title: 'NULS Academy Blockchain Course',
-          icon: 'mdi-fountain-pen-tip',
+          color: 'purple',
+          dark: true,
+          icon: 'mdi-school',
+          byline: 'Training.',
           hreff: 'http://westteam.nulstar.com/academy/BlockchainCourse/index.html',
         },
         {
+          color: 'red',
+          dark: true,
           title: 'Youtube Videos',
-          icon: 'mdi-cellphone',
+          byline: 'Training for NULS and Nerve',
+          icon: 'mdi-youtube',
           hreff: 'https://www.youtube.com/channel/UCVIyQ6rE49XBm1sTvNZxQVQ',
         },
         {
-          color: 'primary',
+          color: 'myteal',
           dark: true,
+          byline: 'Get started with staking and earn rewards',
           title: 'Staking QuickStart',
-          icon: 'mdi-pencil-box-outline',
+          icon: 'mdi-hammer',
           hreff: 'https://www.youtube.com/watch?v=NaI5mZCwQlo',
 
         },
         {
+          color: 'myteal2',
+          dark: true,
           title: 'POCM Staking',
           icon: 'mdi-image-size-select-actual',
+          byline: 'Earn higher rewards staking with POCM',
           hreff: 'https://pocm.nuls.io/Projects/ProjectsList',
         },
         {
+          color: 'indigo',
           title: 'Ndex',
+          dark: true,
           icon: 'mdi-ice-pop',
+          byline: 'Trade between tokens.',
+          hreff: 'https://pocm.nuls.io/Projects/ProjectsList',
         },
         {
+          color: 'light-blue',
           title: 'Smart Contracts',
-          icon: 'mdi-help-circle-outline',
+          dark: true,
+          byline: 'Create your own smart contract.',
+          icon: 'mdi-book-open-variant',
+          hreff: 'https://pocm.nuls.io/Projects/ProjectsList',
         },
       ],
     }),

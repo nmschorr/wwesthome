@@ -16,7 +16,7 @@
         <v-responsive
           class="d-flex align-center"
           height="100%"
-          max-width="1200"
+          max-width="2000"
           width="100%"
         >
           <base-heading
@@ -27,13 +27,12 @@
             :style="`font-size:20px;`"
           >
             <span
-              :style="`font-size:30px!important;color:white;font-weight:700;`"
+              :style="`font-size:26px!important;color:white;font-weight:700;`"
             >
               <br><br><br>
-              Here you will find:<br><br>
-              - Support for both the Nuls and Nerve<br><br>
-              - Tech support, training, documentation,  <br>
-              graphics and videos
+              Nuls and Nerve<br><br>
+              Tech support, training,<br>
+              and documentation <br>
             </span>
           </base-body>
         </v-responsive>
@@ -61,9 +60,7 @@
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 
   .xv-data-table__wrapper {

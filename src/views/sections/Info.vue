@@ -23,11 +23,11 @@
               <base-info-card title="Contact" />
               <base-business-contact />
             </v-col>
-            <v-col
+            <!-- <v-col
               cols="12"
               md="3"
             >
-            </v-col>
+            </v-col> -->
           </v-row>
         </v-container>
       </v-responsive>
