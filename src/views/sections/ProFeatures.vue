@@ -21,6 +21,10 @@
       >
         <v-col
           cols="12"
+          md="2"
+        />
+        <v-col
+          cols="12"
           md="7"
         >
           <v-simple-table>
@@ -73,20 +77,23 @@
 
         <v-col
           cols="12"
-          md="5"
+          md="3"
+          class="d-flex flex-column justify-right align-right"
         >
           <v-card
-            elevation="16"
-            class="mb-12"
+            class="my-12 ml-12"
+            max-width="150px"
+            max-height="200px"
+            flat
           >
             <base-img
               max-width="100%"
-              src="@/assets/nulsDeveloper.svg"
+              :src="require('@/assets/rocket.svg')"
             />
           </v-card>
 
           <div class="text-center">
-            <base-btn
+            <!-- <base-btn
               :tile="false"
               color="primary"
               href=""
@@ -95,7 +102,7 @@
               <v-icon right>
                 mdi-rocket
               </v-icon>
-            </base-btn>
+            </base-btn> -->
           </div>
         </v-col>
       </v-row>

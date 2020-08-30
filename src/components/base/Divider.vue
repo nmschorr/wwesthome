@@ -2,11 +2,13 @@
   <v-responsive
     :class="classes"
     class="base-divider"
-    max-width="28"
     v-bind="$attrs"
+    :max-width="mwidth"
     v-on="$listeners"
   >
-    <v-divider />
+    <v-divider
+      :style="mwidth"
+    />
   </v-responsive>
 </template>
 
@@ -25,6 +27,10 @@
       space: {
         type: [Number, String],
         default: 6,
+      },
+      mwidth: {
+        type: String,
+        default: '28px',
       },
     },
 

@@ -2,7 +2,7 @@
   <v-theme-provider dark>
     <base-section
       id="contact-us"
-      class="primary"
+      class="secondary"
       space="36"
     >
       <v-row
@@ -12,16 +12,12 @@
       >
         <v-responsive
           class="px-4 mx-6"
-          max-width="600"
+          max-width="1200"
           width="100%"
         >
-          <v-img
-            :src="`../../assets/Community_Tree.svg;`"
-            min-height="200px"
-          />
           <base-title
             space="0"
-            title="Invest in your future"
+            title="Invest in the future"
           />
           <!--  <base-text-field
             hide-details

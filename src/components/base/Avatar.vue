@@ -87,7 +87,7 @@
         console.log('going to: ' + rpath)
         window.location.href = rpath
       },
-    }
+    },
   }
 </script>
 

@@ -37,7 +37,10 @@
               space="1"
             />
           </a>
-          <base-divider :color="color" />
+          <base-divider
+            :color="color"
+            mwidth="92px"
+          />
 
           <base-body
             v-if="text || $slots.default"
