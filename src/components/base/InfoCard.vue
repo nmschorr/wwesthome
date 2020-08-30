@@ -11,7 +11,10 @@
           cols="12"
           class="mb-4"
         >
-          <base-icon :color="color">
+          <base-icon
+            :color="color"
+            @click="runme(rpath)"
+          >
             {{ icon }}
           </base-icon>
         </v-col>
@@ -26,7 +29,7 @@
             space="1"
           />
           <a
-            :href="href"
+            :href="rpath"
             :style="`text-decoration-line:none`"
           >
             <base-title
@@ -79,9 +82,14 @@
       subtitle: String,
       text: String,
       title: String,
-      href: {
+      rpath: {
         type: String,
-        default: 'http://nuls.io',
+        default: 'https://nuls.io',
+      },
+    },
+    methods: {
+      runme (rpath) {
+        window.location.href = rpath
       },
     },
   }

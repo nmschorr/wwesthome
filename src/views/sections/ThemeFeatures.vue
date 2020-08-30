@@ -31,6 +31,7 @@
       features: [
         {
           title: 'NULS Academy Blockchain Course',
+          dark: false,
           color: 'purple',
           icon: 'mdi-school',
           byline: 'Training.',

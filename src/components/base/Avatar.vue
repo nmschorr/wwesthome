@@ -10,24 +10,30 @@
       :style="styles"
       class="base-avatar__outline"
       style="opacity: .4"
+      @click="gopath(hreff)"
     />
-
-    <v-avatar
-      :color="color || 'white'"
-      :size="size"
-      class="base-avatar__avatar"
-      v-bind="$attrs"
-      v-on="$listeners"
+    <v-hover
+      v-slot:default="{ hover }"
+      close-delay="200"
     >
-      <base-icon
-        v-if="icon"
-        :dark="dark"
-        :size="size / 2"
-        :class="`${tcolor}`"
+      <v-avatar
+        :size="size"
+        class="base-avatar__avatar"
+        :color="hover ? `transparent` : color"
+        v-bind="$attrs"
+        v-on="$listeners"
+        @click="gopath(hreff)"
       >
-        {{ icon }}
-      </base-icon>
-    </v-avatar>
+        <base-icon
+          v-if="icon"
+          :dark="dark"
+          :size="size / 2"
+          :class="`${tcolor}`"
+        >
+          {{ icon }}
+        </base-icon>
+      </v-avatar>
+    </v-hover>
   </div>
 </template>
 
@@ -47,6 +53,10 @@
       size: {
         type: [Number, String],
         default: 56,
+      },
+      hreff: {
+        type: String,
+        default: 'https://nuls.io',
       },
     },
 
@@ -72,6 +82,12 @@
         }
       },
     },
+    methods: {
+      gopath (rpath) {
+        console.log('going to: ' + rpath)
+        window.location.href = rpath
+      },
+    }
   }
 </script>
 

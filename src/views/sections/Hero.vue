@@ -21,13 +21,13 @@
         >
           <base-heading
             title="Nulstar West"
-            :style="`font-family: 'Montserrat',sans-serif;font-size:70px!important; font-weight:900;`"
+            :style="`font-family: 'Montserrat',sans-serif;font-size:60px!important; font-weight:900;line-height:74px;`"
           />
           <base-body
             :style="`font-size:20px;`"
           >
             <span
-              :style="`font-size:26px!important;color:white;font-weight:700;`"
+              :style="`font-size:26px!important;color:white;font-weight:700;line-height:34px;`"
             >
               <br><br><br>
               Nuls and Nerve<br><br>

@@ -9,7 +9,6 @@
       :icon="icon"
       :outlined="outlined"
       :size="size"
-      :href="hreff"
       :tcolor="tcolor"
       class="mb-3"
     />

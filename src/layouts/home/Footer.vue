@@ -21,7 +21,7 @@
               />
 
               <v-responsive
-                v-if="i < social.length - 1"
+                v-if="s < social.length - 1"
                 :key="`divider-${s}`"
                 class="mx-4 shrink hidden-sm-and-down"
                 max-height="24"
