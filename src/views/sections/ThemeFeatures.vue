@@ -47,7 +47,7 @@
           hreff: 'https://www.youtube.com/channel/UCVIyQ6rE49XBm1sTvNZxQVQ',
         },
         {
-          color: 'myteal',
+          color: 'deep-orange',
           dark: false,
           byline: 'Get started with staking and earn rewards',
           title: 'Staking QuickStart',

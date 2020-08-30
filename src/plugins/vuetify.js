@@ -26,7 +26,7 @@ export default new Vuetify({
         secondary: '#050b1f',
         accent: '#204165',
         myteal2: '#00BFA5',
-        myteal: '.teal',
+        myteal: 'teal',
         mytext: 'black',
       },
       dark: {
