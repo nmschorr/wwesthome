@@ -25,7 +25,7 @@
         class="hidden-xs-only"
         contain
         width="96"
-        src="@/assets/addins/NULS_Black.png"
+        src="@/assets/nerve.png"
       />
     </a>
 
@@ -33,7 +33,7 @@
 
     <v-btn
       class="text-capitalize subtitle-2 mr-6"
-      color="success"
+      color="primary"
       href="https://wallet.nerve.network/"
       min-width="112"
     >
@@ -41,8 +41,8 @@
     </v-btn>
 
     <v-btn
-      class="text-capitalize subtitle-2 font-weight-bold"
-      color="white"
+      class="text-capitalize subtitle-2 font-weight-bold white--text"
+      color="green darken-1"
       light
       href="https://wallet.nuls.io/"
       min-width="112"
@@ -55,7 +55,7 @@
       vertical
     />
 
-    <v-btn
+    <!-- <v-btn
       class="text-capitalize grey--text mr-n2 mr-sm-n1"
       small
       text
@@ -71,7 +71,7 @@
       <span class="hidden-xs-only">
         Remove Frame
       </span>
-    </v-btn>
+    </v-btn> -->
   </v-system-bar>
 </template>
 
