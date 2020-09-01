@@ -188,7 +188,7 @@
           <v-btn
             class="mx-6 mb-3"
             color="deep-orange"
-            href="https://www.youtube.com/channel/UCVIyQ6rE49XBm1sTvNZxQVQ"
+            href="https://github.com/nuls-io"
             fab
             target="_blank"
             :style="`text-transform:none;`"
