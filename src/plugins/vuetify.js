@@ -1,21 +1,15 @@
 // Vuetify Documentation https://vuetifyjs.com
 
 import Vue from 'vue'
-import Vuetify from 'vuetify/lib/framework'
-import colors from 'vuetify/es5/util/colors'
+import Vuetify from 'vuetify'
+// import colors from 'vuetify/es5/util/colors'
 
-import {
-  VCol,
-  VRow,
-} from 'vuetify/lib'
+// import {
+//   VCol,
+//   VRow,
+// } from 'vuetify/lib'
 
-Vue.use(Vuetify, {
-  colors,
-  components: {
-    VCol,
-    VRow,
-  },
-})
+Vue.use(Vuetify)
 
 export default new Vuetify({
   theme: {
@@ -40,7 +34,10 @@ export default new Vuetify({
     },
   },
 })
-
+ // #1a56a4 from nerve blue
+  // accent: #204165 - very dark blue green, no material color
+  // secondary: '#050b1f':  almost black no material color
+  // primary  #42a5f6 - blue lighten-1 - orig
   // secondary: colors.deepPurple.accent1, // md: #b388ff  //was tw light purple b794f4
   // tertiary: colors.teal.base,  //md teal  009688
   // success: colors.teal.accent4,  // md teal accent-4 00BFA5

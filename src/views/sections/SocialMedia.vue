@@ -20,6 +20,7 @@
         href="https://nuls.io"
         style="text-decoration: none;"
         target="_blank"
+        :style="`color:white;`"
       >
         https://nuls.io
       </a>
@@ -30,14 +31,12 @@
         class="mx-6 mb-3"
         color="green lighten-1"
         href="https://twitter.com/Nuls"
-        dark
-        min-width="92"
         target="_blank"
-        small
+        medium
+        fab
         :style="`text-transform:none;`"
       >
-        NULS
-        <v-icon right>
+        <v-icon>
           mdi-twitter
         </v-icon>
       </v-btn>
@@ -45,15 +44,13 @@
         class="mx-6 mb-3"
         color="light-blue darken-4"
         href="https://twitter.com/nerve_network"
-        dark
-        min-width="92"
+        fab
         target="_blank"
-        small
+        medium
         elevation-16
         :style="`text-transform:none;`"
       >
-        Nerve
-        <v-icon right>
+        <v-icon>
           mdi-twitter
         </v-icon>
       </v-btn>
@@ -61,14 +58,12 @@
         class="mx-6 mb-3"
         color="red"
         href="https://www.reddit.com/r/nulsservice"
-        dark
-        small
-        min-width="92"
+        fab
+        medium
         target="_blank"
         :style="`text-transform:none;`"
       >
-        Reddit
-        <v-icon right>
+        <v-icon>
           mdi-reddit
         </v-icon>
       </v-btn>
@@ -76,13 +71,12 @@
         class="mx-6 mb-3"
         color="green darken-1"
         href="https://t.me/nulsservice"
-        dark
+        fab
         target="_blank"
-        small
+        medium
         :style="`text-transform:none;`"
       >
-        Telegram
-        <v-icon right>
+        <v-icon>
           mdi-telegram
         </v-icon>
       </v-btn>
@@ -90,14 +84,12 @@
         class="mx-6 mb-3"
         color="cyan darken-1"
         href="https://www.facebook.com/nulscommunity"
-        dark
-        min-width="92"
+        fab
         target="_blank"
-        small
+        medium
         :style="`text-transform:none;`"
       >
-        Facebook
-        <v-icon right>
+        <v-icon>
           mdi-facebook
         </v-icon>
       </v-btn>
@@ -105,14 +97,12 @@
         class="mx-6 mb-3"
         color="teal darken-2"
         href="https://discord.gg/kyHHJB5"
-        dark
-        min-width="92"
+        fab
         target="_blank"
-        small
+        medium
         :style="`text-transform:none;`"
       >
-        Discord
-        <v-icon right>
+        <v-icon>
           mdi-discord
         </v-icon>
       </v-btn>
@@ -120,14 +110,12 @@
         class="mx-6 mb-3"
         color="deep-orange"
         href="https://www.youtube.com/channel/UCVIyQ6rE49XBm1sTvNZxQVQ"
-        dark
-        min-width="92"
+        fab
         target="_blank"
-        small
+        medium
         :style="`text-transform:none;`"
       >
-        YouTube
-        <v-icon right>
+        <v-icon>
           mdi-youtube
         </v-icon>
       </v-btn>
@@ -135,29 +123,40 @@
         class="mx-6 mb-3"
         color="deep-orange"
         href="https://www.youtube.com/channel/UCVIyQ6rE49XBm1sTvNZxQVQ"
-        dark
-        min-width="92"
+        fab
         target="_blank"
-        small
+        medium
         :style="`text-transform:none;`"
       >
-        Github
-        <v-icon right>
+        <v-icon>
           mdi-github
         </v-icon>
       </v-btn>
-      <v-btn
-        class="mx-6 mb-3"
-        color="purple darken-3"
-        href="https://github.com/nuls-io"
-        dark
-        min-width="92"
-        target="_blank"
-        small
-        :style="`text-transform:none;`"
+      <v-tooltip
+        v-model="show"
+        top
+        transition="expand"
       >
-        Medium
-      </v-btn>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn
+            class="mx-6 mb-3"
+            color="light-blue"
+            href="https://medium.com/@nuls"
+            dark
+            fab
+            target="_blank"
+            medium
+            :style="`text-transform:none;`"
+            v-bind="attrs"
+            v-on="on"
+          >
+            <v-avatar size="36">
+              <v-img :src="require('@/assets/addins/Monogram4.png')" />
+            </v-avatar>
+          </v-btn>
+        </template>
+        <span>Medium</span>
+      </v-tooltip>
     </base-section>
   </v-theme-provider>
 </template>
@@ -169,5 +168,8 @@
     provide: {
       heading: { align: 'center' },
     },
+    data: () => ({
+      show: '',
+    }),
   }
 </script>
