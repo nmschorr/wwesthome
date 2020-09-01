@@ -28,7 +28,8 @@
           >
             <v-card
               color="white"
-              width="600px"
+              width="auto"
+              min-width="200px"
               height="200px"
             >
               <v-img

@@ -5,9 +5,11 @@
     <v-img
       :src="require('@/assets/nuls-nerve.jpg')"
       class="mx-auto mb-8"
-      width="600px"
+      width="auto"
+      min-width="200px"
       max-width="1200px"
       height="337px"
+      min-height="100px"
     />
 
     <base-section-heading title="Feature Comparison">
