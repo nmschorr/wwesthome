@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# script for spaceexploration westteam:
+# script for westteam:
 
 cd /usr/share/nginx/html/home
 

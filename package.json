@@ -1,6 +1,6 @@
 {
-  "name": "@vuetify-themes/zero",
-  "version": "1.1.0",
+  "name": "@westhome",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
