@@ -69,7 +69,7 @@
           dark: false,
           icon: 'mdi-ice-pop',
           byline: 'Trade between tokens.',
-          hreff: 'https://pocm.nuls.io/Projects/ProjectsList',
+          hreff: 'https://nervedex.com/',
         },
         {
           color: 'light-blue',
@@ -77,7 +77,7 @@
           dark: false,
           byline: 'Create your own smart contract.',
           icon: 'mdi-book-open-variant',
-          hreff: 'https://pocm.nuls.io/Projects/ProjectsList',
+          hreff: 'https://docs.nuls.io/Docs/i_smart-contract.html',
         },
       ],
     }),
