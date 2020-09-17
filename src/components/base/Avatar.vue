@@ -22,7 +22,7 @@
         :color="hover ? `transparent` : color"
         v-bind="$attrs"
         v-on="$listeners"
-        @click="gopath(hreff)"
+        @click="gopath(`${hreff}`)"
       >
         <base-icon
           v-if="icon"
@@ -56,7 +56,7 @@
       },
       hreff: {
         type: String,
-        default: 'https://westteam.nulstar.com',
+        default: 'http://westteam.nulstar.com',
       },
     },
 
