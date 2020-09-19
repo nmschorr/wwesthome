@@ -19,7 +19,7 @@
                 :href="s.hreff"
                 v-text="s.title"
               />
-
+                
               <v-responsive
                 v-if="s < social.length - 1"
                 :key="`divider-${s}`"

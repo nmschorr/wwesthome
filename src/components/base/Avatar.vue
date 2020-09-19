@@ -85,7 +85,8 @@
     methods: {
       gopath (rpath) {
         console.log('going to: ' + rpath)
-        window.location.href = rpath
+        // window.location.href = rpath
+        window.open(rpath, '_blank')
       },
     },
   }
