@@ -22,7 +22,7 @@
         :color="hover ? `transparent` : color"
         v-bind="$attrs"
         v-on="$listeners"
-        @click="gopath(hreff)"
+        @click="gopath(`${hreff}`)"
       >
         <base-icon
           v-if="icon"
@@ -56,7 +56,7 @@
       },
       hreff: {
         type: String,
-        default: 'https://nuls.io',
+        default: 'http://westteam.nulstar.com',
       },
     },
 
@@ -85,7 +85,8 @@
     methods: {
       gopath (rpath) {
         console.log('going to: ' + rpath)
-        window.location.href = rpath
+        // window.location.href = rpath
+        window.open(rpath, '_blank')
       },
     },
   }

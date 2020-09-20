@@ -10,12 +10,14 @@
       :outlined="outlined"
       :size="size"
       :tcolor="tcolor"
+      :hreff="hreff"
       class="mb-3"
     />
 
     <div :class="horizontal && title && 'ml-6'">
       <a
         :href="hreff"
+        target="_blank"
       >
         {{ title }}
       </a>

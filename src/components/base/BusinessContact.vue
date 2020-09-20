@@ -34,6 +34,7 @@
 </template>
 
 <script>
+  // shows on page
   export default {
     name: 'BaseBusinessContact',
 
@@ -46,9 +47,9 @@
     data: () => ({
       business: [
         {
-          icon: 'mdi-map-marker-outline',
+          icon: 'mdi-telegram',
           title: 'Training Liason',
-          text: 'Gabriele',
+          text: 'Telegram: @Gabriely89',
         },
         {
           icon: 'mdi-email',
@@ -59,6 +60,11 @@
           icon: 'mdi-email',
           title: 'Westtern Regional Director',
           text: 'berzeck@nulstar.com',
+        },
+        {
+          icon: 'mdi-telegram',
+          title: 'Webmaster',
+          text: 'Telegram: @Nancy_Sv',
         },
       ],
     }),

@@ -20,9 +20,9 @@
     data: () => ({
       business: [
         {
-          icon: 'mdi-email',
+          icon: 'mdi-telegram',
           title: 'Training Liason',
-          text: 'Gabriele',
+          text: '@Gabriely89',
         },
         {
           icon: 'mdi-email',

@@ -22,12 +22,12 @@
     data: () => ({
       business: [
         {
-          icon: 'mdi-map-marker-outline',
+          icon: 'mdi-telegram',
           title: 'Training Liason',
-          text: 'Gabriele',
+          text: 'Telegram: @Gabriely89',
         },
         {
-          icon: 'mdi-email',
+          icon: 'mdi-teach',
           title: 'Software Support',
           text: 'kathy@nuls.io',
         },
