@@ -25,6 +25,7 @@
 </template>
 
 <script>
+
   export default {
     name: 'SectionThemeFeatures',
     data: () => ({
@@ -49,7 +50,7 @@
         {
           color: 'deep-orange',
           dark: false,
-          byline: 'Get started with staking and earn rewards',
+          byline: 'Get started Staking and earn Rewards',
           title: 'Staking QuickStart',
           icon: 'mdi-hammer',
           hreff: 'https://www.youtube.com/watch?v=NaI5mZCwQlo',
@@ -58,7 +59,7 @@
         {
           color: 'myteal2',
           dark: false,
-          title: 'POCM Staking',
+          title: 'POCM Staking with NULS',
           icon: 'mdi-image-size-select-actual',
           byline: 'Earn higher rewards staking with POCM',
           hreff: 'https://pocm.nuls.io/Projects/ProjectsList',

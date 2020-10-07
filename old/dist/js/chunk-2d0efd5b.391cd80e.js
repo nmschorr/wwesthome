@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0efd5b"],{"9a96":function(e,t,n){"use strict";n.r(t);var a,o,s=n("0dfe"),u=n("6512"),l={name:"ContactUs",metaInfo:{title:"Contact Us"},extends:s["a"],mixins:[Object(u["a"])(["hero-alt","keep-in-touch","newsletter","pro-features"])],props:{id:{type:String,default:"about"}}},p=l,c=n("2877"),i=Object(c["a"])(p,a,o,!1,null,null,null);t["default"]=i.exports}}]);
+//# sourceMappingURL=chunk-2d0efd5b.391cd80e.js.map
