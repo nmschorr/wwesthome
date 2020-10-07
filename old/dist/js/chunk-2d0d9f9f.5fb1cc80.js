@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0d9f9f"],{"6a42":function(e,t,a){"use strict";a.r(t);var n,o,u=a("0dfe"),r=a("6512"),s={name:"About",metaInfo:{title:"NULS Academy"},extends:u["a"],mixins:[Object(r["a"])(["hero-alt","about-our-product","theme-features","affiliates","newsletter","pro-features","info"])],props:{id:{type:String,default:"about"}}},f=s,i=a("2877"),l=Object(i["a"])(f,n,o,!1,null,null,null);t["default"]=l.exports}}]);
-//# sourceMappingURL=chunk-2d0d9f9f.5fb1cc80.js.map
