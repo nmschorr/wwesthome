@@ -1,0 +1,31 @@
+
+sudo ls
+
+sudo rm -rf /usr/share/nginx/html/js 
+sudo rm -rf /usr/share/nginx/html/css 
+sudo rm -rf /usr/share/nginx/html/fonts
+sudo rm -rf /usr/share/nginx/html/img
+sudo rm -rf /usr/share/nginx/html/index.html 
+sudo rm -rf /usr/share/nginx/html/westhome/node_modules/.cache
+sudo rm -rf /usr/share/nginx/html/westhome/dist
+sudo rm -rf /usr/share/nginx/html/dist
+
+cd /usr/share/nginx/html/westhome
+
+sudo npm run build 
+
+echo "do next: "
+
+echo "sudo systemctl stop westhome"
+echo " "
+
+
+echo "sudo cp -r /usr/share/nginx/html/westhome/dist/* /usr/share/nginx/html/"
+echo "cd /usr/share/nginx/html/dist"
+echo "sudo cp -r * .."
+
+echo "  then:"
+echo "sudo systemctl start westhome"
+echo
+
+sudo systemctl status westhome
