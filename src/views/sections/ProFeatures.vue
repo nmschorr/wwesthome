@@ -2,16 +2,26 @@
   <base-section
     id="pro-features"
   >
-    <v-img
-      :src="require('@/assets/nuls-nerve.jpg')"
-      class="mx-auto mb-8"
-      width="auto"
-      min-width="200px"
-      max-width="1200px"
-      height="337px"
-      min-height="100px"
-    />
-
+    <v-card
+      width="50%"
+      height="50%"
+      min-width="50%"
+      min-height="50%"
+      max-width="50%"
+      class="d-flex mx-auto py-3 justify-center align-center mb-9"
+      style="background-color: rgba(0,0,0,.87);"
+    >
+      <v-img
+        width="50%"
+        height="50%"
+        min-width="50%"
+        min-height="50%"
+        max-width="50%"
+        :src="require('@/assets/nuls-nerve.jpg')"
+        class="d-flex mx-auto py-3 justify-center align-center"
+        style="z-index:4;"
+      />
+    </v-card>
     <base-section-heading title="Feature Comparison">
       <strong>Nuls</strong> and Nerve <br>
     </base-section-heading>

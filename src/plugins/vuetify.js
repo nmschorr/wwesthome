@@ -16,17 +16,17 @@ export default new Vuetify({
     dark: false,
     themes: {
       light: {
-        primary: '#42a5f6',
+        primary: '#313131',
         secondary: '#050b1f',
-        accent: '#204165',
+        accent: '#1d2929de',
         myteal2: '#00BFA5',
         myteal: '#009688',
         mytext: '#000000',
       },
       dark: {
-        primary: '#42a5f6',
+        primary: '#313131',
         secondary: '#050b1f',
-        accent: '#204165',
+        accent: '#1d2929de',
         myteal2: '#00BFA5',
         myteal: '#009688',
         mytext: '#ffffff',
@@ -46,3 +46,4 @@ export default new Vuetify({
   // error: colors.red.lighten1,   //md deep-purple darken-2 455A64
   // warning: colors.orange.lighten2,  //md blue-grey darken-2  455A64
   // darkgrey: colors.grey.darken3, // 212121
+  // old primary - medium blue:  #42a5f6
