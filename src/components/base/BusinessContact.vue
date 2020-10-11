@@ -62,7 +62,7 @@
           icon: 'mdi-email',
           title: 'VP of Customer Experience - Kathy Norman',
           text: 'kathy@nuls.io',
-          linkedin: 'https://linkedin/kathynorman',
+          linkedin: 'https://linkedin.com/in/kathy-norman',
         },
         {
           icon: 'mdi-telegram',

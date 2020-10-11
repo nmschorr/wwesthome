@@ -9,7 +9,7 @@
       :icon="icon"
       :outlined="outlined"
       :size="size"
-      :tcolor="tcolor"
+      :tcolor="white"
       :hreff="hreff"
       class="mb-3"
     />
@@ -17,19 +17,21 @@
     <div :class="horizontal && title && 'ml-6'">
       <a
         :href="hreff"
-        style="color:grey;"
+        style="color:#E8FFFF;"
         target="_blank"
       >
         {{ title }}
       </a>
       <br>
       <a
+        v-if="linkin"
         :href="linkin"
-        style="color:grey;"
+        :style="`color:#B2FFFF;font-size:14px;`"
         target="_blank"
       >
-        Profile
+        LinkedIn
       </a>
+      <br>
       <base-body
         v-if="text || $slots.default"
         :space="horizontal ? 0 : undefined"
