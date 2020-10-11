@@ -15,7 +15,7 @@
           :icon="icon"
           :outlined="false"
           :title="!dense ? t : undefined"
-          :linkedin="linkedin"
+          :linkin="linkedin"
           dark
           class="white--text"
           horizontal
@@ -62,7 +62,7 @@
           icon: 'mdi-email',
           title: 'VP of Customer Experience - Kathy Norman',
           text: 'kathy@nuls.io',
-          linkedin: '',
+          linkedin: 'https://linkedin/kathynorman',
         },
         {
           icon: 'mdi-telegram',

@@ -23,6 +23,13 @@
         {{ title }}
       </a>
       <br>
+      <a
+        :href="linkin"
+        style="color:grey;"
+        target="_blank"
+      >
+        Profile
+      </a>
       <base-body
         v-if="text || $slots.default"
         :space="horizontal ? 0 : undefined"
@@ -69,7 +76,7 @@
       text: String,
       title: String,
       hreff: String,
-      linkedin: String,
+      linkin: String,
       tcolor: {
         type: String,
         default: 'white--text',
