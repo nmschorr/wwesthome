@@ -17,10 +17,12 @@
     <div :class="horizontal && title && 'ml-6'">
       <a
         :href="hreff"
+        style="color:grey;"
         target="_blank"
       >
         {{ title }}
       </a>
+      <br>
       <base-body
         v-if="text || $slots.default"
         :space="horizontal ? 0 : undefined"
@@ -67,6 +69,7 @@
       text: String,
       title: String,
       hreff: String,
+      linkedin: String,
       tcolor: {
         type: String,
         default: 'white--text',

@@ -21,12 +21,12 @@
         'contact-us',
         'affiliates',
         'social-media',
-        'keep-in-touch',
         'newsletter',
         'pro-features',
         'info',
       ]),
     ],
+    // 'keep-in-touch', - - removed from LoadSections
 
     props: {
       id: {
