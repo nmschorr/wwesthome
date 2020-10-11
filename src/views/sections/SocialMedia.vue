@@ -4,17 +4,12 @@
       id="social"
       class="accent text-center"
       space="56"
+      style="background-image: linear-gradient(306deg, #37474F 0%, #00e676 100%);"
+      :style="`max-height:300px;`"
     >
       <base-icon class="mb-8">
         mdi-twitter
       </base-icon>
-
-      <base-section-heading
-        color="transparent"
-        title="Social Media"
-      >
-        Join us - we are everywhere.
-      </base-section-heading>
       <a
         class="d-inline-block mb-8"
         href="https://nuls.io"

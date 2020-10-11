@@ -33,7 +33,7 @@
 
     <v-btn
       class="text-capitalize subtitle-2 mr-6"
-      color="primary"
+      color="blue"
       href="https://wallet.nerve.network/"
       min-width="112"
     >

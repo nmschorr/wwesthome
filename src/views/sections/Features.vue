@@ -1,11 +1,16 @@
 <template>
   <base-section
     id="features"
-    class="secondary"
+    class="secondary pb-9"
+    color="transparent"
+    max-height="300px"
+    space="12"
+    style="background-color:#FFFFFF;margin-bottom:40px;"
   >
     <v-responsive
-      class="mx-auto"
+      class="mx-auto pb-1 mb-1"
       max-width="1350"
+      style="background-color:#FFFFFF;"
     >
       <v-container fluid>
         <v-row>
@@ -20,6 +25,7 @@
               align="center"
               dark
               v-bind="card"
+              class="pb-2 mb-3"
             />
           </v-col>
         </v-row>

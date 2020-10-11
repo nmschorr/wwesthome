@@ -9,7 +9,7 @@
           v-if="icon"
           :class="`text-${align}`"
           cols="12"
-          class="mb-4"
+          class="mb-3"
         >
           <base-icon
             :color="color"

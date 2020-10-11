@@ -20,6 +20,9 @@
 </script>
 
 <style lang="sass">
+  .theme--light.v-application
+    background: #F4F2F1 !important
+
   .extra-padding
     padding-bottom: 96px !important
     padding-top: 96px !important

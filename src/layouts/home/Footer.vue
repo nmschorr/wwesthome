@@ -1,7 +1,8 @@
 <template>
   <v-footer
     id="home-footer"
-    color="grey darken-4"
+    color="grey darken-3"
+    style="background-image: linear-gradient(306deg, #37474F 0%, #00e676 100%);"
     dark
     min-height="72"
   >
@@ -239,7 +240,7 @@
             by
             <a
               href="https://nuls.io"
-              style="font-weight:600!important;color:#4DB6AC;"
+              style="font-weight:600!important;color:#CCFFFF;"
             >
               NULS
             </a>

@@ -3,13 +3,13 @@
     id="pro-features"
   >
     <v-card
-      width="50%"
+      width="70%"
       height="50%"
-      min-width="50%"
+      min-width="70%"
       min-height="50%"
       max-width="50%"
-      class="d-flex mx-auto py-3 justify-center align-center mb-9"
-      style="background-color: rgba(0,0,0,.87);"
+      class="d-flex mx-auto py-3 justify-center align-center mb-5"
+      style="background-color: rgba(0,0,0,.92);"
     >
       <v-img
         width="50%"
@@ -93,7 +93,7 @@
           class="d-flex flex-column justify-right align-right"
         >
           <v-card
-            class="my-12 ml-12"
+            class="my-9 ml-12"
             max-width="150px"
             max-height="200px"
             flat

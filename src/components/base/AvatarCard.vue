@@ -17,9 +17,18 @@
     <div :class="horizontal && title && 'ml-6'">
       <a
         :href="hreff"
+        style="color:grey;"
         target="_blank"
       >
         {{ title }}
+      </a>
+      <br>
+      <a
+        :href="linkin"
+        style="color:grey;"
+        target="_blank"
+      >
+        Profile
       </a>
       <base-body
         v-if="text || $slots.default"
@@ -67,6 +76,7 @@
       text: String,
       title: String,
       hreff: String,
+      linkin: String,
       tcolor: {
         type: String,
         default: 'white--text',
