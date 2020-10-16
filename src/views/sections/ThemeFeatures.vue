@@ -85,7 +85,7 @@
           dark: false,
           icon: 'mdi-rocket',
           byline: 'Nuls Blockchain in Action!',
-          hreff: 'http://westteam.nulstar.com:5007',
+          hreff: 'https://westteam.nulstar.com/spc',
         },
         {
           color: 'pink darken-3',
