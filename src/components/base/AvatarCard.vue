@@ -9,7 +9,7 @@
       :icon="icon"
       :outlined="outlined"
       :size="size"
-      :tcolor="tcolor"
+      :tcolor="white"
       :hreff="hreff"
       class="mb-3"
     />
@@ -18,6 +18,7 @@
       <a
         :href="hreff"
         target="_blank"
+        style="text-color:white"
       >
         {{ title }}
       </a>

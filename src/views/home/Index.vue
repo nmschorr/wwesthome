@@ -20,7 +20,7 @@
         'features',
         'contact-us',
         'affiliates',
-        'social-media',
+        // 'social-media',
         'keep-in-touch',
         'newsletter',
         'pro-features',

@@ -3,7 +3,8 @@
     <div>
       <base-info-card
         :title="title"
-        color="primary"
+        color="white"
+        class="white--text"
       >
         <slot />
       </base-info-card>
@@ -20,7 +21,10 @@
         >
           <!-- Do not use v-html for user -->
           <!-- provided values -->
-          <div v-html="text" />
+          <div
+            class="white--text"
+            v-html="text"
+          />
         </base-avatar-card>
 
         <v-divider
@@ -47,26 +51,35 @@
     data: () => ({
       business: [
         {
+          icon: 'mdi-email',
+          title: 'Berzeck - Western Regional Director',
+          text: 'mailto:berzeck@nulstar.com',
+        },
+        {
+          icon: 'linked-in',
+          title: 'Patric Vogel - VP of Marketing',
+          text: 'https://linkedin.com/in/patric-vogel-8070471b6/',
+        },
+        {
           icon: 'mdi-telegram',
-          title: 'Training Liason',
+          title: 'Gabriele - Training Liason',
           text: 'Telegram: @Gabriely89',
         },
         {
           icon: 'mdi-email',
-          title: 'Software Support',
-          text: 'kathy@nuls.io',
+          title: 'Kathy Norman - VP of Customer Support',
+          text: 'https://linkedin.com/in/kathy-norman/',
         },
-        {
-          icon: 'mdi-email',
-          title: 'Westtern Regional Director',
-          text: 'berzeck@nulstar.com',
-        },
+
         {
           icon: 'mdi-telegram',
-          title: 'Webmaster',
+          title: 'Nancy - Webmaster',
           text: 'Telegram: @Nancy_Sv',
         },
       ],
     }),
   }
 </script>
+<style scoped>
+  .v-application a { color: #FFFFFF; }
+</style>

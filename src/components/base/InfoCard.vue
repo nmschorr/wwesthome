@@ -56,7 +56,7 @@
           cols="2"
         >
           <div
-            class="display-3 grey--text text--lighten-4 font-weight-bold pr-8"
+            class="display-3 cyan--text text--lighten-4 font-weight-bold pr-8"
             v-text="callout"
           />
         </v-col>
@@ -79,7 +79,7 @@
       callout: String,
       color: {
         type: String,
-        default: 'primary',
+        default: 'cyan',
       },
       icon: String,
       subtitle: String,

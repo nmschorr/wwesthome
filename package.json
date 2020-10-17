@@ -9,7 +9,6 @@
     "postversion": "node scripts/postversion.js"
   },
   "dependencies": {
-    "cypress": "^5.2.0",
     "google-fonts-webpack-plugin": "^0.4.4",
     "http-server": "^0.12.3",
     "start-server": "0.0.4",
