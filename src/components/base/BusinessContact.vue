@@ -3,27 +3,31 @@
     <div>
       <base-info-card
         :title="title"
-        color="white"
-        class="white--text"
+        color="primary"
+        dark
       >
         <slot />
       </base-info-card>
 
-      <template v-for="({ icon, text, title: t }, i) in business">
+      <template v-for="({ icon, textname, title: t, linkedin, email }, i) in business">
         <base-avatar-card
           :key="i"
           :icon="icon"
           :outlined="false"
           :title="!dense ? t : undefined"
-          color="transparent"
+          :linkin="linkedin"
+          :email="email"
+          :text="textname"
+          dark
+          class="white--text"
           horizontal
           space="0"
         >
           <!-- Do not use v-html for user -->
           <!-- provided values -->
           <div
-            class="white--text"
-            v-html="text"
+            style="color:white;"
+            v-html="textname"
           />
         </base-avatar-card>
 
@@ -52,34 +56,65 @@
       business: [
         {
           icon: 'mdi-email',
-          title: 'Berzeck - Western Regional Director',
-          text: 'mailto:berzeck@nulstar.com',
+          title: 'Westtern Regional Director',
+          email: 'berzeck@nulstar.com',
+          linkedin: '',
+          textname: 'Berzeck',
         },
         {
-          icon: 'linked-in',
-          title: 'Patric Vogel - VP of Marketing',
-          text: 'https://linkedin.com/in/patric-vogel-8070471b6/',
+          icon: 'mdi-linkedin',
+          title: 'VP of Customer Experience',
+          textname: 'Kathy Norman',
+          linkedin: 'https://linkedin.com/in/kathy-norman/',
+          email: '',
+        },
+        {
+          icon: 'mdi-linkedin',
+          title: 'VP of Marketing',
+          textname: 'Patric Vogel',
+          linkedin: 'https://linkedin.com/in/patric-vogel-8070471b6/',
+          email: '',
         },
         {
           icon: 'mdi-telegram',
-          title: 'Gabriele - Training Liason',
-          text: 'Telegram: @Gabriely89',
+          title: 'Training Liason',
+          email: 'Telegram: @Gabriely89',
+          linkedin: '',
+          textname: 'Gabriele Yokver',
         },
-        {
-          icon: 'mdi-email',
-          title: 'Kathy Norman - VP of Customer Support',
-          text: 'https://linkedin.com/in/kathy-norman/',
-        },
-
         {
           icon: 'mdi-telegram',
-          title: 'Nancy - Webmaster',
-          text: 'Telegram: @Nancy_Sv',
+          title: 'Sales Engineer and Marketing',
+          email: 'Telegram: @Nancy_Sv',
+          linkedin: '',
+          textname: 'Nancy Schorr',
+        },
+        {
+          icon: 'mdi-telegram',
+          title: 'Graphics, Animation and Social Marketing',
+          textname: 'Nalex',
+          email: 'Telegram: @NalexNULS',
+          linkedin: '',
         },
       ],
     }),
   }
 </script>
-<style scoped>
-  .v-application a { color: #FFFFFF; }
-</style>
+        //   icon: 'mdi-email',
+        //   title: 'Berzeck - Western Regional Director',
+        //   text: 'mailto:berzeck@nulstar.com',
+        // },
+        // {
+        //   icon: 'linked-in',
+        //   title: 'Patric Vogel - VP of Marketing',
+        //   text: 'https://linkedin.com/in/patric-vogel-8070471b6/',
+        // },
+        // {
+        //   icon: 'mdi-telegram',
+        //   title: 'Gabriele - Training Liason',
+        //   text: 'Telegram: @Gabriely89',
+        // },
+        // {
+        //   icon: 'mdi-email',
+        //   title: 'Kathy Norman - VP of Customer Support',
+        //   text: 'https://linkedin.com/in/kathy-norman/',

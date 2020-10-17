@@ -1,11 +1,16 @@
 <template>
   <base-section
     id="features"
-    class="secondary"
+    class="secondary pb-9"
+    color="transparent"
+    max-height="300px"
+    space="12"
+    style="background-color:#FFFFFF;margin-bottom:40px;"
   >
     <v-responsive
-      class="mx-auto"
+      class="mx-auto pb-1 mb-1"
       max-width="1350"
+      style="background-color:#FFFFFF;"
     >
       <v-container fluid>
         <v-row>
@@ -20,6 +25,7 @@
               align="center"
               dark
               v-bind="card"
+              class="pb-2 mb-3"
             />
           </v-col>
         </v-row>
@@ -62,3 +68,36 @@
     }),
   }
 </script>
+
+    //   export default {
+    //     name: 'SectionFeatures',
+
+    //     data: () => ({
+    //       cards: [
+    //         {
+    //           icon: 'mdi-frequently-asked-questions',
+    //           title: 'FAQs',
+    //           text: 'Frequently Asked Questions',
+    //           rpath: 'https://nuls.io',
+    //         },
+    //         {
+    //           icon: 'mdi-camera-outline',
+    //           title: 'Chainbox',
+    //           text: 'Blockchains operate in a decentralized manner.',
+    //           rpath: 'https://nuls.io',
+    //         },
+    //         {
+    //           icon: 'mdi-pencil-outline',
+    //           title: 'Chain Factory',
+    //           text: 'Consensus enables the blockchain.',
+    //           rpath: 'https://nuls.io',
+    //         },
+    //         {
+    //           icon: 'mdi-puzzle-outline',
+    //           title: 'Support',
+    //           text: 'Consensus enables decentralized and unsupervised running.',
+    //           rpath: 'https://nuls.io',
+    //         },
+    //       ],
+    //     }),
+    //   }

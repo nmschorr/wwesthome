@@ -56,7 +56,7 @@
       },
       hreff: {
         type: String,
-        default: 'http://westteam.nulstar.com',
+        default: 'https://westteam.nulstar.com',
       },
     },
 

@@ -1,6 +1,6 @@
 <template>
   <base-section
-    id="affiliates"
+    id="partners"
     class="grey lighten-4"
     space="36"
   >
@@ -39,6 +39,6 @@
 
 <script>
   export default {
-    name: 'SectionAffiliates',
+    name: 'SectionPartners',
   }
 </script>

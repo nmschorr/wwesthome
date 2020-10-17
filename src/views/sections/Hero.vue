@@ -10,8 +10,6 @@
       min-height="200px"
       gradient="to right, rgba(5, 11, 31, 0), rgba(5, 11, 31, 0)"
     >
-      <!-- gradient="to right, rgba(5, 11, 31, .8), rgba(5, 11, 31, .8)" -->
-
       <v-container class="fill-height px-4 py-12">
         <v-responsive
           class="d-flex align-center"

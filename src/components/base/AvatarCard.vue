@@ -18,14 +18,23 @@
       <a
         :href="hreff"
         target="_blank"
-        style="text-color:white"
+        style="color:#E8FFFF"
       >
         {{ title }}
       </a>
+      <a
+        :href="linkin"
+        style="color:red;"
+        :style="`font-size:14px;`"
+        target="_blank"
+      >
+        LinkedIn
+      </a>
+      <br>
       <base-body
         v-if="text || $slots.default"
         :space="horizontal ? 0 : undefined"
-        :text="text"
+        :text="textname"
         class="mx-auto"
         max-width="700"
       >
@@ -66,7 +75,9 @@
         default: 72,
       },
       text: String,
+      email: String,
       title: String,
+      linkin: String,
       hreff: String,
       tcolor: {
         type: String,

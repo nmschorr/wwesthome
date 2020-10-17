@@ -19,7 +19,7 @@
         'theme-features',
         'features',
         'contact-us',
-        'affiliates',
+        'partners',
         // 'social-media',
         'keep-in-touch',
         'newsletter',

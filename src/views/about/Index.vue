@@ -17,7 +17,7 @@
         'hero-alt',
         'about-our-product',
         'theme-features',
-        'affiliates',
+        'partners',
         'newsletter',
         'pro-features',
         'info',
