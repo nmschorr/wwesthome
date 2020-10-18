@@ -8,37 +8,34 @@
       :color="color"
       :icon="icon"
       :outlined="outlined"
+      :text="textname"
       :size="size"
-      :tcolor="white"
-      :hreff="hreff"
+      :tcolor="tcolor"
+      :href="href"
       class="mb-3"
     />
 
     <div :class="horizontal && title && 'ml-6'">
       <a
-        :href="hreff"
+        :href="href"
         target="_blank"
         style="color:#E8FFFF"
-      >
-        {{ title }}
-      </a>
-      <a
-        :href="linkin"
-        style="color:red;"
-        :style="`font-size:14px;`"
-        target="_blank"
-      >
-        LinkedIn
-      </a>
+      />
       <br>
+      {{ text }}
+      {{ linkin }}
+
       <base-body
-        v-if="text || $slots.default"
+        v-if="textname || $slots.default"
         :space="horizontal ? 0 : undefined"
         :text="textname"
+        :linkin="linkin"
+
         class="mx-auto"
         max-width="700"
       >
         <slot />
+        {{ text }}
       </base-body>
     </div>
   </div>
@@ -59,9 +56,16 @@
         default: 'left',
       },
       color: String,
-      dark: Boolean,
-      horizontal: Boolean,
       icon: String,
+      textname: String,
+      dark: {
+        type: Boolean,
+        default: false,
+      },
+      horizontal: {
+        type: Boolean,
+        default: true,
+      },
       outlined: {
         type: Boolean,
         default: true,
@@ -74,14 +78,25 @@
         type: [Number, String],
         default: 72,
       },
-      text: String,
-      email: String,
-      title: String,
-      linkin: String,
-      hreff: String,
+      email: {
+        type: String,
+        default: '',
+      },
+      title: {
+        type: String,
+        default: '',
+      },
+      linkin: {
+        type: String,
+        default: '',
+      },
+      href: {
+        type: String,
+        default: '',
+      },
       tcolor: {
         type: String,
-        default: 'white--text',
+        default: 'green',
       },
     },
 

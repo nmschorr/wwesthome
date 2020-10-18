@@ -45,6 +45,8 @@
           <base-body
             v-if="text || $slots.default"
             :text="text"
+            :linkin="linkin"
+            :email="email"
             space="6"
           >
             <slot />
@@ -84,7 +86,38 @@
       icon: String,
       subtitle: String,
       text: String,
-      title: String,
+      outlined: {
+        type: Boolean,
+        default: true,
+      },
+      space: {
+        type: [Number, String],
+        default: 8,
+      },
+      size: {
+        type: [Number, String],
+        default: 72,
+      },
+      email: {
+        type: String,
+        default: '',
+      },
+      title: {
+        type: String,
+        default: '',
+      },
+      linkin: {
+        type: String,
+        default: '',
+      },
+      href: {
+        type: String,
+        default: '',
+      },
+      tcolor: {
+        type: String,
+        default: 'green',
+      },
       rpath: {
         type: String,
         default: 'https://nuls.io',

@@ -3,30 +3,30 @@
     <div>
       <base-info-card
         :title="title"
-        color="primary"
+        color="blue-grey"
         dark
       >
         <slot />
       </base-info-card>
 
-      <template v-for="({ icon, textname, title: t, linkedin, email }, i) in business">
+      <template v-for="({ icon, title: t }, i) in business">
         <base-avatar-card
           :key="i"
           :icon="icon"
           :outlined="false"
-          :title="!dense ? t : undefined"
-          :linkin="linkedin"
-          :email="email"
           :text="textname"
+          :title="!dense ? t : undefined"
+          :linkin="linkin"
+          :email="email"
           dark
-          class="white--text"
+          class="black--text text--lighten-1 deep-orange lighten-3"
           horizontal
           space="0"
         >
           <!-- Do not use v-html for user -->
           <!-- provided values -->
           <div
-            style="color:white;"
+            style="color:blue;"
             v-html="textname"
           />
         </base-avatar-card>
@@ -47,9 +47,35 @@
     name: 'BaseBusinessContact',
 
     props: {
-      dark: Boolean,
+      dark: {
+        type: Boolean,
+        default: true,
+      },
       dense: Boolean,
-      title: String,
+      outlined: {
+        type: Boolean,
+        default: true,
+      },
+      email: {
+        type: String,
+        default: '',
+      },
+      title: {
+        type: String,
+        default: '',
+      },
+      linkin: {
+        type: String,
+        default: '',
+      },
+      href: {
+        type: String,
+        default: '',
+      },
+      textname: {
+        type: String,
+        default: '',
+      },
     },
 
     data: () => ({
@@ -100,21 +126,3 @@
     }),
   }
 </script>
-        //   icon: 'mdi-email',
-        //   title: 'Berzeck - Western Regional Director',
-        //   text: 'mailto:berzeck@nulstar.com',
-        // },
-        // {
-        //   icon: 'linked-in',
-        //   title: 'Patric Vogel - VP of Marketing',
-        //   text: 'https://linkedin.com/in/patric-vogel-8070471b6/',
-        // },
-        // {
-        //   icon: 'mdi-telegram',
-        //   title: 'Gabriele - Training Liason',
-        //   text: 'Telegram: @Gabriely89',
-        // },
-        // {
-        //   icon: 'mdi-email',
-        //   title: 'Kathy Norman - VP of Customer Support',
-        //   text: 'https://linkedin.com/in/kathy-norman/',
