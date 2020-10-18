@@ -24,7 +24,19 @@
       v-if="title"
       :class="horizontal && title && 'ml-6'"
     >
-      <span style="font-family:montserrat,sans-serif;font-size:16px;font-weight:400">
+      <a
+        v-if="href.length > 0"
+        :href="href"
+        class="cyan--text text--darken-4"
+        style="font-size:16px;"
+        target="_blank"
+      >
+        {{ title }} <br>
+      </a>
+      <span
+        v-if="!href"
+        style="font-family:montserrat,sans-serif;font-size:16px;font-weight:400"
+      >
         {{ title }} <br>
       </span>
       {{ text }} <br>

@@ -2,35 +2,26 @@
   <v-theme-provider :dark="dark">
     <div>
       <base-info-card
-        :title="title"
         color="blue-grey"
         dark
       >
         <slot />
       </base-info-card>
 
-      <template v-for="({ icon, title: t }, i) in business">
+      <template v-for="(itm, i) in business">
         <base-avatar-card
           :key="i"
-          :icon="icon"
+          :icon="itm.icon"
           :outlined="false"
-          :text="textname"
-          :title="!dense ? t : undefined"
-          :linkin="linkin"
-          :email="email"
+          :text="itm.jobtitle"
+          :title="itm.personname"
+          :email="itm.email"
+          :linkin="itm.linkin"
           dark
-          class="black--text text--lighten-1 deep-orange lighten-3"
+          class="white--text transparent"
           horizontal
           space="0"
-        >
-          <!-- Do not use v-html for user -->
-          <!-- provided values -->
-          <div
-            style="color:blue;"
-            v-html="textname"
-          />
-        </base-avatar-card>
-
+        />
         <v-divider
           v-if="i + 1 !== business.length"
           :key="`divider-${i}`"
@@ -45,7 +36,6 @@
   // shows on page
   export default {
     name: 'BaseBusinessContact',
-
     props: {
       dark: {
         type: Boolean,
@@ -56,15 +46,7 @@
         type: Boolean,
         default: true,
       },
-      email: {
-        type: String,
-        default: '',
-      },
-      title: {
-        type: String,
-        default: '',
-      },
-      linkin: {
+      text: {
         type: String,
         default: '',
       },
@@ -72,7 +54,23 @@
         type: String,
         default: '',
       },
-      textname: {
+      email: {
+        type: String,
+        default: '',
+      },
+      jobtitle: {
+        type: String,
+        default: '',
+      },
+      linkin: {
+        type: String,
+        default: '',
+      },
+      title: {
+        type: String,
+        default: '',
+      },
+      personname: {
         type: String,
         default: '',
       },
@@ -82,45 +80,47 @@
       business: [
         {
           icon: 'mdi-email',
+          jobtitle: 'Westtern Regional Director',
           title: 'Westtern Regional Director',
           email: 'berzeck@nulstar.com',
-          linkedin: '',
-          textname: 'Berzeck',
+          linkin: '',
+          personname: 'Berzeck',
         },
         {
           icon: 'mdi-linkedin',
+          jobtitle: 'VP of Customer Experience',
           title: 'VP of Customer Experience',
-          textname: 'Kathy Norman',
-          linkedin: 'https://linkedin.com/in/kathy-norman/',
+          personname: 'Kathy Norman',
+          linkin: 'https://linkedin.com/in/kathy-norman/',
           email: '',
         },
         {
           icon: 'mdi-linkedin',
-          title: 'VP of Marketing',
-          textname: 'Patric Vogel',
-          linkedin: 'https://linkedin.com/in/patric-vogel-8070471b6/',
+          jobtitle: 'VP of Marketing',
+          personname: 'Patric Vogel',
+          linkin: 'https://linkedin.com/in/patric-vogel-8070471b6/',
           email: '',
         },
         {
           icon: 'mdi-telegram',
-          title: 'Training Liason',
+          jobtitle: 'Training Liason',
           email: 'Telegram: @Gabriely89',
-          linkedin: '',
-          textname: 'Gabriele Yokver',
+          linkin: '',
+          personname: 'Gabriele Yokver',
         },
         {
           icon: 'mdi-telegram',
-          title: 'Sales Engineer and Marketing',
+          jobtitle: 'Sales Engineer and Marketing',
           email: 'Telegram: @Nancy_Sv',
-          linkedin: '',
-          textname: 'Nancy Schorr',
+          linkin: '',
+          personname: 'Nancy Schorr',
         },
         {
           icon: 'mdi-telegram',
-          title: 'Graphics, Animation and Social Marketing',
-          textname: 'Nalex',
+          jobtitle: 'Graphics, Animation and Social Marketing',
+          personname: 'Nalex',
           email: 'Telegram: @NalexNULS',
-          linkedin: '',
+          linkin: '',
         },
       ],
     }),

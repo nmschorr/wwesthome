@@ -20,8 +20,8 @@
                 <br><br>
                 Got NULS? Stake into a project’s nodes and earn their token as reward,
                 while the project earns NULS as reward. Projects can use the NULS rewards to bootstrap and help fund
-                development. Unlike IEOs and ICOs, stakers never risk their principal, /
-                and NULS never leave their wallet.
+                development. Unlike IEOs and ICOs, stakers never risk their principal,
+                and NULS never leaves their wallet.
               </span>
             </base-body>
           </v-col>

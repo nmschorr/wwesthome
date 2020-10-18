@@ -1,7 +1,7 @@
 <template>
   <div
     :class="classes"
-    class="base-avatar d-inline-flex"
+    class="base-avatar d-inline-flex ml-2 mr-5"
   >
     <v-avatar
       v-if="outlined"
@@ -45,7 +45,6 @@
       color: String,
       tcolor: {
         type: String,
-        default: 'purple',
       },
       dark: {
         type: Boolean,
@@ -53,6 +52,7 @@
       },
       icon: String,
       outlined: Boolean,
+      title: String,
       size: {
         type: [Number, String],
         default: 56,
@@ -96,6 +96,7 @@
 </script>
 
 <style lang="sass">
+
   .base-avatar
     border-radius: 50%
     position: relative

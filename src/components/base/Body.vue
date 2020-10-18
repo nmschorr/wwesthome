@@ -5,8 +5,6 @@
     :style="styles"
     :text="text"
     :title="title"
-    :linkin="linkin"
-    :email="email"
     class="base-body body-1 black--text"
     v-bind="$attrs"
     v-on="$listeners"
@@ -14,27 +12,15 @@
     <!-- Only use v-html for user data -->
     <div
       v-if="text"
-      v-text="text"
-    />
+    >
+      {{ text }}
+    </div>
+
     <div
       v-if="title"
-      v-text="title"
     >
       {{ title }}
     </div>
-    <div
-      v-if="linkin"
-      v-text="linkin"
-    />
-    <div
-      v-if="email"
-      v-text="email"
-    />
-    <div
-      v-else-if="html"
-      v-html="html"
-    />
-
     <slot v-else />
   </component>
 </template>

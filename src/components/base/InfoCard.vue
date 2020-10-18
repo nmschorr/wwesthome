@@ -45,8 +45,6 @@
           <base-body
             v-if="text || $slots.default"
             :text="text"
-            :linkin="linkin"
-            :email="email"
             space="6"
           >
             <slot />
@@ -94,29 +92,13 @@
         type: [Number, String],
         default: 8,
       },
-      size: {
-        type: [Number, String],
-        default: 72,
-      },
-      email: {
-        type: String,
-        default: '',
-      },
       title: {
-        type: String,
-        default: '',
-      },
-      linkin: {
         type: String,
         default: '',
       },
       href: {
         type: String,
         default: '',
-      },
-      tcolor: {
-        type: String,
-        default: 'green',
       },
       rpath: {
         type: String,
