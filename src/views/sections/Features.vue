@@ -10,7 +10,7 @@
     <v-responsive
       class="mx-auto pb-1 mb-1"
       max-width="1350"
-      style="background-color:#FFFFFF;"
+      style="background-color:#212121;"
     >
       <v-container fluid>
         <v-row>
@@ -25,7 +25,7 @@
               align="center"
               dark
               v-bind="card"
-              class="pb-2 mb-3"
+              class="pb-2 mb-3 cyan--text text--lighten-3"
             />
           </v-col>
         </v-row>
@@ -48,9 +48,9 @@
         },
         {
           icon: 'mdi-camera-outline',
-          title: 'Chainbox',
-          text: 'Blockchains operate in a decentralized manner.',
-          rpath: 'https://nuls.io',
+          title: 'Staking',
+          text: 'QuickStart Staking Tutorial',
+          rpath: 'https://www.youtube.com/watch?v=NaI5mZCwQlo',
         },
         {
           icon: 'mdi-pencil-outline',

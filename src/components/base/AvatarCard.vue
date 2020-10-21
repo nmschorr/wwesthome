@@ -47,10 +47,10 @@
 
       <div
         v-if="email.length"
-        class="pink--text text--lighten-4"
+        class="cyan--text text--lighten-3"
         style="color:white;"
       >
-        <span style="font-family:montserrat,sans-serif;font-size:14px;font-weight:400">
+        <span style="font-family:montserrat,sans-serif;font-size:16px;font-weight:400">
           {{ email }} <br>
         </span>
       </div>

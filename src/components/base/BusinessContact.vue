@@ -103,7 +103,7 @@
         },
         {
           icon: 'mdi-telegram',
-          jobtitle: 'Graphics, Animation and Social Marketing',
+          jobtitle: 'Motion Graphics and Social Marketing',
           personname: 'Nalex',
           email: 'Telegram: @NalexNULS',
           linkin: '',

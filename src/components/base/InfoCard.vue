@@ -1,6 +1,8 @@
 <template>
   <v-theme-provider :dark="dark">
-    <v-container class="pa-0">
+    <v-container
+      class="pa-0 transparent"
+    >
       <v-row
         :justify="justify"
         no-gutters
@@ -33,6 +35,7 @@
             :style="`text-decoration-line:none`"
           >
             <base-title
+              class="cyan--text text--lighten-3"
               :title="title"
               space="1"
             />

@@ -86,7 +86,7 @@
     computed: {
       classes () {
         return [
-          'deep-purple--text',
+          'cyan--text',
           this.theme.isDark ? 'text--lighten-1' : 'text--darken-1',
           `text-${this.heading.align}`,
           `mb-${this.space}`,

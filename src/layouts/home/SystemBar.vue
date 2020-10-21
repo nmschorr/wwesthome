@@ -67,7 +67,15 @@
       />
       Wallet
     </v-btn>
-
+    <v-btn
+      class="text-capitalize subtitle-2 font-weight-bold white--text ml-6"
+      color="grey darken-1"
+      medium
+      href="https://nulscan.io/"
+      min-width="122"
+    >
+      NULScan
+    </v-btn>
     <v-divider
       class="ml-6 mr-3"
       vertical

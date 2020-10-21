@@ -11,15 +11,23 @@
             <base-title
               :space="$vuetify.breakpoint.mdAndUp ? 0 : 4"
               title="What is POCM?"
+              class="mb-4"
+              :style="`font-size:20px!important;`"
             />
 
             <base-body space="0">
-              <span class="white--text">
-                Proof of Credit Mining (POCM) is a SCO Platform that allows projects to use smart-contracts to issue
+              <span
+                class="white--text"
+                style="font-family:montserrat, sans-serif;font-size:18px;"
+              >
+                Proof of Credit Mining (POCM) is a SCO Platform that uses smart-contracts to issue
                 and distribute project tokens.
                 <br><br>
                 Got NULS? Stake into a project’s nodes and earn their token as reward,
-                while the project earns NULS as reward. Projects can use the NULS rewards to bootstrap and help fund
+                while the project earns NULS as reward.
+                <br><br>
+
+                Projects can use the NULS rewards to bootstrap and help fund
                 development. Unlike IEOs and ICOs, stakers never risk their principal,
                 and NULS never leaves their wallet.
               </span>
@@ -31,24 +39,15 @@
           >
             <v-card
               color="white"
-              width="auto"
-              min-width="700px"
-              height="500px"
+              width="558"
+              height="357"
+              class="ml-7"
             >
               <v-img
-                :src="require('@/assets/builder.svg')"
-                min-height="100px"
-                max-height="200px"
-                width="712.344"
-                height="457.688"
+                :src="require('@/assets/pocm2.jpg')"
+                width="558"
+                height="357"
               />
-              <!-- <v-img
-                :src="require('@/assets/marketing.jpg')"
-                min-height="100px"
-                max-height="200px"
-                width="100%"
-                height="100%"
-              /> -->
             </v-card>
             <!--   <base-btn
               :block="$vuetify.breakpoint.smAndDown"
