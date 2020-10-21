@@ -91,15 +91,22 @@
           jobtitle: 'VP of Customer Experience',
           title: 'VP of Customer Experience',
           personname: 'Kathy Norman',
-          linkin: 'https://linkedin.com/in/kathy-norman/',
+          linkin: 'https://linkedin.com/in/kathy-norman',
           email: '',
         },
         {
           icon: 'mdi-linkedin',
           jobtitle: 'VP of Marketing',
           personname: 'Patric Vogel',
-          linkin: 'https://linkedin.com/in/patric-vogel-8070471b6/',
+          linkin: 'https://linkedin.com/in/patric-vogel-8070471b6',
           email: '',
+        },
+        {
+          icon: 'mdi-telegram',
+          jobtitle: 'Graphics, Animation and Social Marketing',
+          personname: 'Nalex',
+          email: 'Telegram: @NalexNULS',
+          linkin: '',
         },
         {
           icon: 'mdi-telegram',
@@ -117,11 +124,19 @@
         },
         {
           icon: 'mdi-telegram',
-          jobtitle: 'Graphics, Animation and Social Marketing',
-          personname: 'Nalex',
-          email: 'Telegram: @NalexNULS',
+          jobtitle: 'NULS Ambassador - Portuguese',
+          personname: 'Joao',
+          email: 'Telegram: @CristinhO',
           linkin: '',
         },
+        {
+          icon: 'mdi-telegram',
+          jobtitle: 'Marketing - Portuguese',
+          personname: 'Viriato',
+          email: 'Telegram: @VendedorPT',
+          linkin: '',
+        },
+
       ],
     }),
   }

@@ -27,26 +27,33 @@
           </v-col>
           <v-col
             cols="12"
-            md="5"
+            md="6"
           >
             <v-card
               color="white"
               width="auto"
-              min-width="200px"
-              height="200px"
+              min-width="700px"
+              height="500px"
             >
               <v-img
+                :src="require('@/assets/builder.svg')"
+                min-height="100px"
+                max-height="200px"
+                width="712.344"
+                height="457.688"
+              />
+              <!-- <v-img
                 :src="require('@/assets/marketing.jpg')"
                 min-height="100px"
                 max-height="200px"
                 width="100%"
                 height="100%"
-              />
+              /> -->
             </v-card>
             <!--   <base-btn
               :block="$vuetify.breakpoint.smAndDown"
               color="white"
-              href="mailto:berzeck@nulstar.com?subject=Nuls%20Blockchain%20Question"
+              href="mailto:berzeck@nulstar.com?subject=NULS%20Blockchain%20Question"
               large
               outlined
               target="_blank"

@@ -24,7 +24,7 @@
               <v-btn
                 class="mx-2 mb-3"
                 color="grey"
-                href="https://twitter.com/Nuls"
+                href="https://twitter.com/NULS"
                 target="_blank"
                 fab
                 x-small
@@ -37,7 +37,7 @@
                 </v-icon>
               </v-btn>
             </template>
-            <span>Twitter Nuls</span>
+            <span>Twitter NULS</span>
           </v-tooltip>
           <v-tooltip
             v-model="showtw2"

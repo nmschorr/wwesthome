@@ -18,7 +18,7 @@
           width="100%"
         >
           <base-heading
-            title="Nulstar West"
+            title="NULStar West"
             :style="`font-family: 'Montserrat',sans-serif;font-size:60px!important; font-weight:900;line-height:74px;`"
           />
           <base-body
@@ -27,8 +27,8 @@
             <span
               :style="`font-size:26px!important;color:white;font-weight:700;line-height:34px;`"
             >
-              <br><br><br>
-              Nuls and Nerve<br><br>
+              <br><br>
+              NULS and Nerve<br>
               Tech support, training,<br>
               and documentation <br>
             </span>

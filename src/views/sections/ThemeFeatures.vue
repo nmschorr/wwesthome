@@ -1,6 +1,6 @@
 <template>
   <base-section id="theme-features">
-    <base-section-heading title="Nuls / Nerve Blockchain Support">
+    <base-section-heading title="NULS / Nerve Blockchain Support">
       The microservice-layer design of NULS makes it easy for developers to quickly create modules for anything.
     </base-section-heading>
     <v-container>
@@ -64,17 +64,17 @@
           href: 'https://westteam.nulstar.com/public/nervedex.html',
         },
         {
-          title: 'TokenLife',
+          title: 'Tokenomics',
           color: 'light-blue',
-          text: 'Visualize Your Blockchain',
+          text: 'Blockchain Economics',
           icon: 'mdi-book-open-variant',
-          href: 'https://westteam.nulstar.com/tokenlife',
+          href: 'https://westteam.nulstar.com/tokenlife/#/tokenomics',
         },
         {
           title: 'Space Exploration Dapp',
           color: 'teal darken-4',
           icon: 'mdi-rocket',
-          text: 'Nuls Blockchain in Action!',
+          text: 'NULS Smart Contract in Action!',
           href: 'https://westteam.nulstar.com/spc',
         },
         {

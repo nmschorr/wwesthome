@@ -20,33 +20,33 @@
     <v-btn
       id="myvbtn"
       class="text-capitalize subtitle-3 font-weight-bold white--text mr-6"
-      color="blue darken-1"
-      x-large
+      color="blue-grey darken-1"
+      large
       href="https://nervedex.com/trading/index target='_blank'"
       min-width="112"
     >
       <v-img
         myvbtn
         src="@/assets/nerve.png"
-        width="50px"
+        width="45px"
         height="15"
         class="mr-1 my-1"
       />
-      NerveDex Trading
+      NerveDex
     </v-btn>
     <v-btn
       id="myvbtn"
       class="text-capitalize subtitle-2 font-weight-bold white--text mr-6"
-      color="light-blue darken-2"
-      x-large
+      color="blue-grey darken-2"
+      large
       href="https://wallet.nerve.network/"
       min-width="112"
     >
       <v-img
         myvbtn
         src="@/assets/nerve.png"
-        width="100px"
-        height="30px"
+        width="95px"
+        height="29px"
         class="mr-1 my-1"
       />
       Wallet
@@ -54,7 +54,7 @@
     <v-btn
       class="text-capitalize subtitle-2 font-weight-bold white--text"
       color="grey darken-2"
-      x-large
+      large
       href="https://wallet.nuls.io/"
       min-width="192"
     >

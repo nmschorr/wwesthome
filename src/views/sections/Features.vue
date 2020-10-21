@@ -43,8 +43,8 @@
         {
           icon: 'mdi-frequently-asked-questions',
           title: 'FAQs',
-          text: 'Frequently Asked Questions',
-          rpath: 'https://nuls.io',
+          text: 'Cross-Chain Asset Circulation with ETH',
+          rpath: 'https://medium.com/@nuls/nuls-has-implemented-cross-chain-asset-circulation-with-eth-network-8b77cc61d81f',
         },
         {
           icon: 'mdi-camera-outline',
@@ -55,13 +55,13 @@
         {
           icon: 'mdi-pencil-outline',
           title: 'Chain Factory',
-          text: 'Consensus enables the blockchain.',
-          rpath: 'https://nuls.io',
+          text: 'Free Chain Builder for Non-Programmers',
+          rpath: 'https://factory.nuls.io',
         },
         {
           icon: 'mdi-puzzle-outline',
-          title: 'Support',
-          text: 'Consensus enables decentralized and unsupervised running.',
+          title: 'Modular Design',
+          text: 'Plug and Play Modules',
           rpath: 'https://nuls.io',
         },
       ],
