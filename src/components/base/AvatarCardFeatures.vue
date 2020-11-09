@@ -15,10 +15,6 @@
       :text="text"
       class="mb-3"
     />
-    <!-- :text="itm.jobtitle"
-    title="itm.personname"
-    email="itm.email"
-    href="itm.linkin" -->
 
     <div
       v-if="title"
@@ -27,15 +23,15 @@
       <a
         v-if="href.length > 0"
         :href="href"
-        class="cyan--text text--darken-4"
-        style="font-size:16px;"
+        class="grey--text text--darken-2"
+        style="font-family:montserrat,sans-serif;font-size:20px;font-weight:500"
         target="_blank"
       >
         {{ title }} <br>
       </a>
       <span
         v-if="!href"
-        style="font-family:montserrat,sans-serif;font-size:16px;font-weight:400"
+        style="font-family:montserrat,sans-serif;font-size:18px;font-weight:400"
       >
         {{ title }} <br>
       </span>
@@ -103,7 +99,7 @@
       },
       size: {
         type: [Number, String],
-        default: 72,
+        default: 52,
       },
       title: {
         type: String,

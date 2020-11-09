@@ -1,23 +1,36 @@
 <template>
-  <base-section id="theme-features">
+  <base-section
+    id="theme-features"
+  >
     <base-section-heading title="NULS / Nerve Blockchain Support">
-      The microservice-layer design of NULS makes it easy for developers to quickly create modules for anything.
+      Support Links
     </base-section-heading>
     <v-container>
-      <v-row>
-        <v-col
-          v-for="(feature, i) in features"
-          :key="i"
-          cols="12"
-          md="6"
+      <v-card
+        width="100%"
+        class="d-flex justify-center align-center"
+      >
+        <v-card
+          width="70%"
+          flat
+          class="d-flex justify-center align-center flat"
         >
-          <base-avatar-card-features
-            v-bind="feature"
-            align="left"
-            horizontal
-          />
-        </v-col>
-      </v-row>
+          <v-row>
+            <v-col
+              v-for="(feature, i) in features"
+              :key="i"
+              cols="12"
+              md="6"
+            >
+              <base-avatar-card-features
+                v-bind="feature"
+                align="left"
+                horizontal
+              />
+            </v-col>
+          </v-row>
+        </v-card>
+      </v-card>
     </v-container>
   </base-section>
 </template>

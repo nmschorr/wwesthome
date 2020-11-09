@@ -2,10 +2,10 @@
   <v-system-bar
     v-if="model"
     app
-    color="#262626"
+    color="grey darken-2"
     class="px-4"
     dark
-    height="99"
+    height="75"
   >
     <span
       style="width:200px"
@@ -20,7 +20,7 @@
     <v-btn
       id="myvbtn"
       class="text-capitalize subtitle-3 font-weight-bold white--text mr-6"
-      color="blue-grey darken-1"
+      color="black"
       large
       href="https://nervedex.com/trading/index target='_blank'"
       min-width="112"
@@ -30,15 +30,15 @@
         src="@/assets/nerve.png"
         width="45px"
         height="15"
-        class="mr-1 my-1"
+        class="mr-1"
       />
       NerveDex
     </v-btn>
     <v-btn
       id="myvbtn"
       class="text-capitalize subtitle-2 font-weight-bold white--text mr-6"
-      color="blue-grey darken-2"
-      large
+      color="black"
+      medium
       href="https://wallet.nerve.network/"
       min-width="112"
     >
@@ -46,15 +46,15 @@
         myvbtn
         src="@/assets/nerve.png"
         width="95px"
-        height="29px"
-        class="mr-1 my-1"
+        height="25px"
+        class="mr-1"
       />
       Wallet
     </v-btn>
     <v-btn
       class="text-capitalize subtitle-2 font-weight-bold white--text"
-      color="grey darken-2"
-      large
+      color="black"
+      medium
       href="https://wallet.nuls.io/"
       min-width="192"
     >
@@ -62,14 +62,14 @@
         myvbtn
         src="@/assets/NULS_White.png"
         width="50px"
-        height="35px"
-        class="mr-4 my-1"
+        height="25px"
+        class="mr-4"
       />
       Wallet
     </v-btn>
     <v-btn
       class="text-capitalize subtitle-2 font-weight-bold white--text ml-6"
-      color="grey darken-1"
+      color="black"
       medium
       href="https://nulscan.io/"
       min-width="122"

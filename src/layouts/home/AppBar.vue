@@ -70,7 +70,7 @@
       drawer: null,
       items: [
         'Home',
-        'About',
+        // 'About',
         // 'Contact',
         // 'Wallet',
       ],

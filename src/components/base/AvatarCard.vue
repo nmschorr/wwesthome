@@ -101,7 +101,7 @@
       },
       size: {
         type: [Number, String],
-        default: 72,
+        default: 52,
       },
       title: {
         type: String,
