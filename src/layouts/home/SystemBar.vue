@@ -5,51 +5,77 @@
     color="#262626"
     class="px-4"
     dark
-    height="58"
+    height="99"
   >
-    <a
-      class="d-flex align-center"
-      href="https://wallet.nuls.io/dist/img/logo.ef0bcec3.svg"
-      target="_blank"
+    <span
+      style="width:200px"
+    />
+    <span
+      class="text-capitalize subtitle-2 font-weight-bold white--text"
+      style="font-family:'montserrat', sans-serif;"
+    >
+      Looking for your wallet?
+    </span>
+    <v-spacer />
+    <v-btn
+      id="myvbtn"
+      class="text-capitalize subtitle-3 font-weight-bold white--text mr-6"
+      color="blue-grey darken-1"
+      large
+      href="https://nervedex.com/trading/index target='_blank'"
+      min-width="112"
     >
       <v-img
-        alt="Nuls Logo"
-        class="mr-2"
-        contain
-        src="@/assets/addins/NULS_Black.png"
-        width="32"
-      />
-
-      <v-img
-        alt="Nuls Name"
-        class="hidden-xs-only"
-        contain
-        width="96"
+        myvbtn
         src="@/assets/nerve.png"
+        width="45px"
+        height="15"
+        class="mr-1 my-1"
       />
-    </a>
-
-    <v-spacer />
-
+      NerveDex
+    </v-btn>
     <v-btn
-      class="text-capitalize subtitle-2 mr-6"
-      color="blue"
+      id="myvbtn"
+      class="text-capitalize subtitle-2 font-weight-bold white--text mr-6"
+      color="blue-grey darken-2"
+      large
       href="https://wallet.nerve.network/"
       min-width="112"
     >
-      Nerve Wallet
+      <v-img
+        myvbtn
+        src="@/assets/nerve.png"
+        width="95px"
+        height="29px"
+        class="mr-1 my-1"
+      />
+      Wallet
     </v-btn>
-
     <v-btn
       class="text-capitalize subtitle-2 font-weight-bold white--text"
-      color="green darken-1"
-      light
+      color="grey darken-2"
+      large
       href="https://wallet.nuls.io/"
-      min-width="112"
+      min-width="192"
     >
-      NULS Wallet
+      <v-img
+        myvbtn
+        src="@/assets/NULS_White.png"
+        width="50px"
+        height="35px"
+        class="mr-4 my-1"
+      />
+      Wallet
     </v-btn>
-
+    <v-btn
+      class="text-capitalize subtitle-2 font-weight-bold white--text ml-6"
+      color="grey darken-1"
+      medium
+      href="https://nulscan.io/"
+      min-width="122"
+    >
+      NULScan
+    </v-btn>
     <v-divider
       class="ml-6 mr-3"
       vertical

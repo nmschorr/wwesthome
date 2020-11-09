@@ -28,4 +28,8 @@ echo "  then:"
 echo "sudo systemctl start westhome"
 echo
 
+<<<<<<< HEAD
+cp -r ./dist/* .
+=======
 sudo systemctl status westhome
+>>>>>>> dev4

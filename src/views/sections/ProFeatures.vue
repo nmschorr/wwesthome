@@ -23,7 +23,7 @@
       />
     </v-card>
     <base-section-heading title="Feature Comparison">
-      <strong>Nuls</strong> and Nerve <br>
+      <strong>NULS</strong> and Nerve <br>
     </base-section-heading>
 
     <v-container>
@@ -44,7 +44,7 @@
               <tr>
                 <th />
                 <th class="body-1 font-weight-bold text-center">
-                  What's in Nuls v2.0?
+                  What's in NULS v2.0?
                 </th>
                 <th class="body-1 font-weight-bold text-center">
                   What's in the Nerve version?

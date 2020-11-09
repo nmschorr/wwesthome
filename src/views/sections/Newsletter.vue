@@ -17,7 +17,7 @@
         >
           <base-title
             space="0"
-            title="Invest in the future"
+            title="Create the future"
           />
           <!--  <base-text-field
             hide-details

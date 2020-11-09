@@ -1,6 +1,8 @@
 <template>
   <v-theme-provider :dark="dark">
-    <v-container class="pa-0">
+    <v-container
+      class="pa-0 transparent"
+    >
       <v-row
         :justify="justify"
         no-gutters
@@ -33,6 +35,7 @@
             :style="`text-decoration-line:none`"
           >
             <base-title
+              class="cyan--text text--lighten-3"
               :title="title"
               space="1"
             />
@@ -56,7 +59,7 @@
           cols="2"
         >
           <div
-            class="display-3 grey--text text--lighten-4 font-weight-bold pr-8"
+            class="display-3 cyan--text text--lighten-4 font-weight-bold pr-8"
             v-text="callout"
           />
         </v-col>
@@ -79,12 +82,27 @@
       callout: String,
       color: {
         type: String,
-        default: 'primary',
+        default: 'cyan',
       },
       icon: String,
       subtitle: String,
       text: String,
-      title: String,
+      outlined: {
+        type: Boolean,
+        default: true,
+      },
+      space: {
+        type: [Number, String],
+        default: 8,
+      },
+      title: {
+        type: String,
+        default: '',
+      },
+      href: {
+        type: String,
+        default: '',
+      },
       rpath: {
         type: String,
         default: 'https://nuls.io',

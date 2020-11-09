@@ -2,7 +2,7 @@
   <v-theme-provider dark>
     <base-section
       id="info-alt"
-      class="grey darken-4 white--text"
+      class="grey darken-4 white--pink"
     >
       <v-responsive
         class="mx-auto"

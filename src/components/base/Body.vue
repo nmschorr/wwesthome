@@ -3,21 +3,24 @@
     :is="tag"
     :class="classes"
     :style="styles"
-    class="base-body body-1"
+    :text="text"
+    :title="title"
+    class="base-body body-1 black--text"
     v-bind="$attrs"
     v-on="$listeners"
   >
     <!-- Only use v-html for user data -->
     <div
       v-if="text"
-      v-text="text"
-    />
+    >
+      {{ text }}
+    </div>
 
     <div
-      v-else-if="html"
-      v-html="html"
-    />
-
+      v-if="title"
+    >
+      {{ title }}
+    </div>
     <slot v-else />
   </component>
 </template>
@@ -47,13 +50,43 @@
         type: String,
         default: 'p',
       },
-      text: String,
+      horizontal: {
+        type: Boolean,
+        default: true,
+      },
+      outlined: {
+        type: Boolean,
+        default: true,
+      },
+      size: {
+        type: [Number, String],
+        default: 72,
+      },
+      email: {
+        type: String,
+        default: '',
+      },
+      title: {
+        type: String,
+        default: '',
+      },
+      linkin: {
+        type: String,
+        default: '',
+      },
+      href: {
+        type: String,
+        default: '',
+      },
+      text: {
+        type: String,
+        default: '',
+      },
     },
-
     computed: {
       classes () {
         return [
-          'deep-purple--text',
+          'cyan--text',
           this.theme.isDark ? 'text--lighten-1' : 'text--darken-1',
           `text-${this.heading.align}`,
           `mb-${this.space}`,

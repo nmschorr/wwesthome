@@ -1,6 +1,6 @@
 <template>
   <base-section id="theme-features">
-    <base-section-heading title="Nuls / Nerve Blockchain Support">
+    <base-section-heading title="NULS / Nerve Blockchain Support">
       The microservice-layer design of NULS makes it easy for developers to quickly create modules for anything.
     </base-section-heading>
     <v-container>
@@ -11,13 +11,11 @@
           cols="12"
           md="6"
         >
-          <base-avatar-card
+          <base-avatar-card-features
             v-bind="feature"
             align="left"
             horizontal
-          >
-            {{ feature.byline }}
-          </base-avatar-card>
+          />
         </v-col>
       </v-row>
     </v-container>
@@ -31,70 +29,61 @@
     data: () => ({
       features: [
         {
+          text: 'Training',
           title: 'NULS Academy Blockchain Course',
-          dark: false,
           color: 'purple',
           icon: 'mdi-school',
-          byline: 'Training.',
-          hreff: 'http://westteam.nulstar.com/academy/BlockchainCourse/index.html',
-          tcolor: 'white--text',
+          href: 'https://westteam.nulstar.com/academy/BlockchainCourse/index.html',
         },
         {
-          color: 'red',
-          dark: false,
           title: 'Youtube Videos',
-          byline: 'Training for NULS and Nerve',
+          text: 'Training for NULS and Nerve',
+          color: 'red',
           icon: 'mdi-youtube',
-          hreff: 'https://www.youtube.com/channel/UCVIyQ6rE49XBm1sTvNZxQVQ',
+          href: 'https://www.youtube.com/channel/UCVIyQ6rE49XBm1sTvNZxQVQ',
         },
         {
-          color: 'deep-orange',
-          dark: false,
-          byline: 'Get started Staking and earn Rewards',
           title: 'Staking QuickStart',
+          text: 'Get started with staking and earn rewards',
+          color: 'deep-orange',
           icon: 'mdi-hammer',
-          hreff: 'https://www.youtube.com/watch?v=NaI5mZCwQlo',
+          href: 'https://www.youtube.com/watch?v=NaI5mZCwQlo',
 
         },
         {
+          title: 'POCM Staking',
+          text: 'Earn higher rewards staking with POCM',
           color: 'myteal2',
-          dark: false,
-          title: 'POCM Staking with NULS',
           icon: 'mdi-image-size-select-actual',
-          byline: 'Earn higher rewards staking with POCM',
-          hreff: 'https://pocm.nuls.io/Projects/ProjectsList',
+          href: 'https://pocm.nuls.io/Projects/ProjectsList',
         },
         {
-          color: 'indigo',
           title: 'Ndex Tutorial',
-          dark: false,
+          text: 'Trade between tokens',
+          color: 'indigo',
           icon: 'mdi-ice-pop',
-          byline: 'Trade between tokens',
-          hreff: 'https://westteam.nulstar.com/public/nervedex.html',
+          href: 'https://westteam.nulstar.com/public/nervedex.html',
         },
         {
+          title: 'Tokenomics',
           color: 'light-blue',
-          title: 'TokenLife',
-          dark: false,
-          byline: 'Visualize Your Blockchain',
+          text: 'Blockchain Economics',
           icon: 'mdi-book-open-variant',
-          hreff: 'https://westteam.nulstar.com/tokenlife',
+          href: 'https://westteam.nulstar.com/tokenlife/#/tokenomics',
         },
         {
-          color: 'teal darken-4',
           title: 'Space Exploration Dapp',
-          dark: false,
+          color: 'teal darken-4',
           icon: 'mdi-rocket',
-          byline: 'Nuls Blockchain in Action!',
-          hreff: 'http://westteam.nulstar.com:5007',
+          text: 'NULS Smart Contract in Action!',
+          href: 'https://westteam.nulstar.com/spc',
         },
         {
           color: 'pink darken-3',
           title: 'TokenLife Design Tool',
-          dark: false,
-          byline: 'Input numbers - Watch tokens grow',
+          text: 'Input numbers - Watch tokens grow',
           icon: 'mdi-chart-line',
-          hreff: 'https://westteam.nulstar.com/tokenlife',
+          href: 'https://westteam.nulstar.com/tokenlife',
         },
       ],
     }),

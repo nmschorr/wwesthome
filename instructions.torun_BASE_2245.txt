@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# script for westteam:
+
+cd /usr/share/nginx/html/westhome
+
+rm -rf /usr/share/nginx/html/westhome/node_modules/.cache
+git fetch
+git pull origin master
+npm run build
+sudo systemctl restart westhome
+
+use only if systemctl doesn't work:
+nohup /usr/node-v12.17.0-linux-x64/lib/node_modules/serve/bin/serve.js -l 8080 -C -s /usr/share/nginx/html/westhome/dist 2>1 &
+
+
+

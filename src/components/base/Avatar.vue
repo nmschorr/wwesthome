@@ -1,7 +1,7 @@
 <template>
   <div
     :class="classes"
-    class="base-avatar d-inline-flex"
+    class="base-avatar d-inline-flex ml-2 mr-5"
   >
     <v-avatar
       v-if="outlined"
@@ -10,7 +10,7 @@
       :style="styles"
       class="base-avatar__outline"
       style="opacity: .4"
-      @click="gopath(hreff)"
+      @click="gopath(href)"
     />
     <v-hover
       v-slot:default="{ hover }"
@@ -22,7 +22,7 @@
         :color="hover ? `transparent` : color"
         v-bind="$attrs"
         v-on="$listeners"
-        @click="gopath(`${hreff}`)"
+        @click="gopath(`${href}`)"
       >
         <base-icon
           v-if="icon"
@@ -45,16 +45,19 @@
       color: String,
       tcolor: {
         type: String,
-        default: 'white--text',
       },
-      dark: Boolean,
+      dark: {
+        type: Boolean,
+        default: true,
+      },
       icon: String,
       outlined: Boolean,
+      title: String,
       size: {
         type: [Number, String],
         default: 56,
       },
-      hreff: {
+      href: {
         type: String,
         default: 'https://westteam.nulstar.com',
       },
@@ -93,6 +96,7 @@
 </script>
 
 <style lang="sass">
+
   .base-avatar
     border-radius: 50%
     position: relative

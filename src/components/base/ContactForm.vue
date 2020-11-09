@@ -20,7 +20,7 @@
 
     <base-btn
       :color="!theme.isDark ? 'accent' : 'white'"
-      href="mailto:berzeck@nulstar.com?subject=Nuls%20Nerve%20Question"
+      href="mailto:berzeck@nulstar.com?subject=NULS%20Nerve%20Question"
       outlined
       target="_blank"
     >

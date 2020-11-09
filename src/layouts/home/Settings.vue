@@ -96,7 +96,7 @@
             rounded
             @click="menu = false"
           >
-            Nuls
+            NULS
 
             <v-icon right>
               mdi-rocket

@@ -31,12 +31,28 @@ export default new Vuetify({
         myteal: '#009688',
         mytext: '#ffffff',
       },
+      // light: {
+      //   primary: '#313131',
+      //   secondary: '#050b1f',
+      //   accent: '#1d2929de',
+      //   myteal2: '#00BFA5',
+      //   myteal: '#009688',
+      //   mytext: '#000000',
+      // },
+      // dark: {
+      //   primary: '#313131',
+      //   secondary: '#050b1f',
+      //   accent: '#1d2929de',
+      //   myteal2: '#00BFA5',
+      //   myteal: '#009688',
+      //   mytext: '#ffffff',
+      // },
     },
   },
 })
 // 43A047 green darken-1
 // 00E676 green accent
- // #1a56a4 from nerve blue
+  // #1a56a4 from nerve blue
   // accent: #204165 - very dark blue green, no material color
   // secondary: '#050b1f':  almost black no material color
   // primary  #42a5f6 - blue lighten-1 - orig

@@ -24,35 +24,37 @@
       v-if="title"
       :class="horizontal && title && 'ml-6'"
     >
-      <span style="font-family:montserrat,sans-serif;font-size:16px;font-weight:400">
-        {{ title }}
+      <a
+        v-if="href.length > 0"
+        :href="href"
+        class="cyan--text text--darken-4"
+        style="font-size:16px;"
+        target="_blank"
+      >
+        {{ title }} <br>
+      </a>
+      <span
+        v-if="!href"
+        style="font-family:montserrat,sans-serif;font-size:16px;font-weight:400"
+      >
+        {{ title }} <br>
       </span>
-      <br>
-
-      <span style="font-family:montserrat,sans-serif;font-size:16px;font-weight:400">
-        {{ text }}
-      </span>
-      <br>
+      {{ text }} <br>
       <a
         v-if="linkin.length > 0"
         :href="linkin"
         class="cyan--text text--lighten-3"
-        style="color:white;"
+        style="color:white;font-size:14px;"
         target="_blank"
       >
-        <span style="font-family:montserrat,sans-serif;font-size:16px;font-weight:400">
-          {{ title }} on LinkedIn
-        </span><br>
+        {{ title }} on LinkedIn <br>
       </a>
-
       <div
         v-if="email.length"
-        class="cyan--text text--lighten-3"
-        style="color:white;"
+        class="pink--text text--lighten-4"
+        style="color:white;font-size:14px;"
       >
-        <span style="font-family:montserrat,sans-serif;font-size:16px;font-weight:400">
-          {{ email }} <br>
-        </span>
+        {{ email }} <br>
       </div>
 
       <base-body

@@ -2,33 +2,26 @@
   <v-theme-provider :dark="dark">
     <div>
       <base-info-card
-        :title="title"
-        color="primary"
+        color="blue-grey"
         dark
       >
         <slot />
       </base-info-card>
 
-      <template v-for="({ icon, text, title: t, linkedin }, i) in business">
+      <template v-for="(itm, i) in business">
         <base-avatar-card
           :key="i"
-          :icon="icon"
+          :icon="itm.icon"
           :outlined="false"
-          :title="!dense ? t : undefined"
-          :linkin="linkedin"
+          :text="itm.jobtitle"
+          :title="itm.personname"
+          :email="itm.email"
+          :linkin="itm.linkin"
           dark
-          class="white--text"
+          class="white--text transparent"
           horizontal
           space="0"
-        >
-          <!-- Do not use v-html for user -->
-          <!-- provided values -->
-          <div
-            style="color:white;"
-            v-html="text"
-          />
-        </base-avatar-card>
-
+        />
         <v-divider
           v-if="i + 1 !== business.length"
           :key="`divider-${i}`"
@@ -43,51 +36,107 @@
   // shows on page
   export default {
     name: 'BaseBusinessContact',
-
     props: {
-      dark: Boolean,
+      dark: {
+        type: Boolean,
+        default: true,
+      },
       dense: Boolean,
-      title: String,
+      outlined: {
+        type: Boolean,
+        default: true,
+      },
+      text: {
+        type: String,
+        default: '',
+      },
+      href: {
+        type: String,
+        default: '',
+      },
+      email: {
+        type: String,
+        default: '',
+      },
+      jobtitle: {
+        type: String,
+        default: '',
+      },
+      linkin: {
+        type: String,
+        default: '',
+      },
+      title: {
+        type: String,
+        default: '',
+      },
+      personname: {
+        type: String,
+        default: '',
+      },
     },
 
     data: () => ({
       business: [
         {
           icon: 'mdi-email',
-          title: 'Westtern Regional Director - Berzeck',
-          text: 'berzeck@nulstar.com',
-          linkedin: '',
+          jobtitle: 'Westtern Regional Director',
+          title: 'Westtern Regional Director',
+          email: 'berzeck@nulstar.com',
+          linkin: '',
+          personname: 'Berzeck',
         },
         {
-          icon: 'mdi-email',
-          title: 'VP of Customer Experience - Kathy Norman',
-          text: 'kathy@nuls.io',
-          linkedin: 'https://linkedin.com/in/kathy-norman',
+          icon: 'mdi-linkedin',
+          jobtitle: 'VP of Customer Experience',
+          title: 'VP of Customer Experience',
+          personname: 'Kathy Norman',
+          linkin: 'https://linkedin.com/in/kathy-norman',
+          email: '',
         },
         {
-          icon: 'mdi-telegram',
-          title: 'VP of Marketing - Patric Vogel',
-          text: 'Telegram: @Rainbow_91',
-          linkedin: '',
-        },
-        {
-          icon: 'mdi-telegram',
-          title: 'Training and Documentation - Gabriele Yokver',
-          text: 'Telegram: @Gabriely89',
-          linkedin: '',
-        },
-        {
-          icon: 'mdi-telegram',
-          title: 'Sales Engineer and Marketing - Nancy Schorr',
-          text: 'Telegram: @Nancy_Sv',
-          linkedin: '',
+          icon: 'mdi-linkedin',
+          jobtitle: 'VP of Marketing',
+          personname: 'Patric Vogel',
+          linkin: 'https://linkedin.com/in/patric-vogel-8070471b6',
+          email: '',
         },
         {
           icon: 'mdi-telegram',
-          title: 'Graphics, Animation and Social Marketing - Nalex',
-          text: 'Telegram: @NalexNULS',
-          linkedin: '',
+          jobtitle: 'Motion Graphics and Social Marketing',
+          personname: 'Nalex',
+          email: 'Telegram: @NalexNULS',
+          linkin: '',
         },
+        {
+          icon: 'mdi-telegram',
+          jobtitle: 'Training Liason',
+          email: 'Telegram: @Gabriely89',
+          linkin: '',
+          personname: 'Gabriele Yokver',
+        },
+        {
+          icon: 'mdi-telegram',
+          jobtitle: 'Sales Engineer and Marketing',
+          email: 'Telegram: @Nancy_Sv',
+          linkin: '',
+          personname: 'Nancy Schorr',
+        },
+        {
+          icon: 'mdi-telegram',
+          jobtitle: 'NULS Ambassador - Portuguese',
+          personname: 'Joao',
+          email: 'Telegram: @CristinhO',
+          linkin: '',
+        },
+        {
+          icon: 'mdi-telegram',
+          jobtitle: 'Marketing - Portuguese',
+          personname: 'Viriato',
+          email: 'Telegram: @VendedorPT',
+          linkin: '',
+        },
+
       ],
     }),
   }

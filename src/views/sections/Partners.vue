@@ -1,11 +1,11 @@
 <template>
   <base-section
-    id="affiliates"
+    id="partners"
     class="grey lighten-4"
     space="36"
   >
     <v-container>
-      <base-section-heading title="Who's using Nuls?" />
+      <base-section-heading title="Who's using NULS?" />
 
       <v-slide-group>
         <template v-for="n in 6">
@@ -39,6 +39,6 @@
 
 <script>
   export default {
-    name: 'SectionAffiliates',
+    name: 'SectionPartners',
   }
 </script>

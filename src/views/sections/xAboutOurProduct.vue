@@ -3,7 +3,7 @@
     <base-section-heading
       color="grey lighten-2"
       icon="mdi-vuetify"
-      title="About Nuls"
+      title="About NULS"
     />
 
     <v-container>
