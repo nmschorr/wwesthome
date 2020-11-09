@@ -77,11 +77,11 @@
           href: 'https://westteam.nulstar.com/public/nervedex.html',
         },
         {
-          title: 'Tokenomics',
+          title: 'Smart Contract',
           color: 'light-blue',
-          text: 'Blockchain Economics',
+          text: 'Simplified Instructions',
           icon: 'mdi-book-open-variant',
-          href: 'https://westteam.nulstar.com/tokenlife/#/tokenomics',
+          href: 'https://nancysv.medium.com/nuls-smart-contract-d1981dcddc95',
         },
         {
           title: 'Space Exploration Dapp',
